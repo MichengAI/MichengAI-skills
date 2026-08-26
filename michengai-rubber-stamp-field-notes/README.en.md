@@ -33,16 +33,13 @@ Use Chinese copy, start numbering at 01, use the year 2026, and never create a c
 
 ## Demos
 
-The six tested results below are compressed to **720 × 540 WebP** and constrained to 360px wide in this README to balance page loading and text legibility.
+The six tested results below are compressed to **720 × 540 WebP** and displayed in two 320px columns; each label and its image remain in the same cell.
 
-| London · Westminster | New York · Statue of Liberty |
+|  |  |
 | --- | --- |
-| <img src="./assets/demo/london-westminster.webp" alt="London Westminster field-notes demo" width="360"> | <img src="./assets/demo/new-york-liberty.webp" alt="New York Statue of Liberty field-notes demo" width="360"> |
-| Hong Kong Wan Chai · Red Sails | Pearl River Estuary · Power Pylons |
-| <img src="./assets/demo/hong-kong-red-sails.webp" alt="Hong Kong red sails field-notes demo" width="360"> | <img src="./assets/demo/pearl-river-power-pylons.webp" alt="Pearl River power pylons field-notes demo" width="360"> |
-
-| Hong Kong Wan Chai · Ferris Wheel | Old Courtyard · Bamboo |
-| <img src="./assets/demo/hong-kong-ferris-wheel.webp" alt="Hong Kong Ferris wheel field-notes demo" width="360"> | <img src="./assets/demo/old-courtyard-bamboo.webp" alt="Old courtyard bamboo field-notes demo" width="360"> |
+| <strong>London · Westminster</strong><br><img src="./assets/demo/london-westminster.webp" alt="London Westminster field-notes demo" width="320"> | <strong>New York · Statue of Liberty</strong><br><img src="./assets/demo/new-york-liberty.webp" alt="New York Statue of Liberty field-notes demo" width="320"> |
+| <strong>Hong Kong Wan Chai · Red Sails</strong><br><img src="./assets/demo/hong-kong-red-sails.webp" alt="Hong Kong red sails field-notes demo" width="320"> | <strong>Pearl River Estuary · Power Pylons</strong><br><img src="./assets/demo/pearl-river-power-pylons.webp" alt="Pearl River power pylons field-notes demo" width="320"> |
+| <strong>Hong Kong Wan Chai · Ferris Wheel</strong><br><img src="./assets/demo/hong-kong-ferris-wheel.webp" alt="Hong Kong Ferris wheel field-notes demo" width="320"> | <strong>Old Courtyard · Bamboo</strong><br><img src="./assets/demo/old-courtyard-bamboo.webp" alt="Old courtyard bamboo field-notes demo" width="320"> |
 
 ## Files
 

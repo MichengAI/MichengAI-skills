@@ -41,15 +41,10 @@
 
 ## 演示
 
-以下实测结果均压缩为 **720 × 960 WebP**，并以 320px 宽双列展示，兼顾页面加载、版面秩序和文字可读性。
-
-| 北京・一城古今，半卷山河 | 上海・海纳百川，光耀东方 |
-| --- | --- |
-| <img src="./assets/demo/beijing.webp" alt="北京城市倒影旅行印刷品演示" width="320"> | <img src="./assets/demo/shanghai.webp" alt="上海城市倒影旅行印刷品演示" width="320"> |
-| 广州・市井千年，潮起岭南 | 深圳・青春热土，创领未来 |
-| <img src="./assets/demo/guangzhou.webp" alt="广州城市倒影旅行印刷品演示" width="320"> | <img src="./assets/demo/shenzhen.webp" alt="深圳城市倒影旅行印刷品演示" width="320"> |
-| 贵阳・山城绿意，云上清风 | 澳门・海湾旧梦，中西相映 |
-| <img src="./assets/demo/guiyang.webp" alt="贵阳城市倒影旅行印刷品演示" width="320"> | <img src="./assets/demo/macau.webp" alt="澳门城市倒影旅行印刷品演示" width="320"> |
+| <strong>北京・一城古今，半卷山河</strong><br><img src="./assets/demo/beijing.webp" alt="北京城市倒影旅行印刷品演示" width="320"> | <strong>上海・海纳百川，光耀东方</strong><br><img src="./assets/demo/shanghai.webp" alt="上海城市倒影旅行印刷品演示" width="320"> |
+| :--- | :--- |
+| <strong>广州・市井千年，潮起岭南</strong><br><img src="./assets/demo/guangzhou.webp" alt="广州城市倒影旅行印刷品演示" width="320"> | <strong>深圳・青春热土，创领未来</strong><br><img src="./assets/demo/shenzhen.webp" alt="深圳城市倒影旅行印刷品演示" width="320"> |
+| <strong>贵阳・山城绿意，云上清风</strong><br><img src="./assets/demo/guiyang.webp" alt="贵阳城市倒影旅行印刷品演示" width="320"> | <strong>澳门・海湾旧梦，中西相映</strong><br><img src="./assets/demo/macau.webp" alt="澳门城市倒影旅行印刷品演示" width="320"> |
 
 ## 文件
 

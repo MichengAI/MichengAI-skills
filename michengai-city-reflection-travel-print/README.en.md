@@ -41,15 +41,10 @@ City: Lisbon
 
 ## Demos
 
-The tested examples are compressed to **720 × 960 WebP** and displayed in two 320px columns to balance loading, layout rhythm, and typographic legibility.
-
-| Beijing · Ancient and Contemporary | Shanghai · Rivers and Radiance |
-| --- | --- |
-| <img src="./assets/demo/beijing.webp" alt="Beijing city reflection travel print demo" width="320"> | <img src="./assets/demo/shanghai.webp" alt="Shanghai city reflection travel print demo" width="320"> |
-| Guangzhou · Lingnan Tides | Shenzhen · A Young Future |
-| <img src="./assets/demo/guangzhou.webp" alt="Guangzhou city reflection travel print demo" width="320"> | <img src="./assets/demo/shenzhen.webp" alt="Shenzhen city reflection travel print demo" width="320"> |
-| Guiyang · Green Mountain Air | Macau · Old Bay, Shared Horizons |
-| <img src="./assets/demo/guiyang.webp" alt="Guiyang city reflection travel print demo" width="320"> | <img src="./assets/demo/macau.webp" alt="Macau city reflection travel print demo" width="320"> |
+| <strong>Beijing · Ancient and Contemporary</strong><br><img src="./assets/demo/beijing.webp" alt="Beijing city reflection travel print demo" width="320"> | <strong>Shanghai · Rivers and Radiance</strong><br><img src="./assets/demo/shanghai.webp" alt="Shanghai city reflection travel print demo" width="320"> |
+| :--- | :--- |
+| <strong>Guangzhou · Lingnan Tides</strong><br><img src="./assets/demo/guangzhou.webp" alt="Guangzhou city reflection travel print demo" width="320"> | <strong>Shenzhen · A Young Future</strong><br><img src="./assets/demo/shenzhen.webp" alt="Shenzhen city reflection travel print demo" width="320"> |
+| <strong>Guiyang · Green Mountain Air</strong><br><img src="./assets/demo/guiyang.webp" alt="Guiyang city reflection travel print demo" width="320"> | <strong>Macau · Old Bay, Shared Horizons</strong><br><img src="./assets/demo/macau.webp" alt="Macau city reflection travel print demo" width="320"> |
 
 ## Files
 

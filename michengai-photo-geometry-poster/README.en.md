@@ -6,13 +6,9 @@ Transforms an uploaded reference photo into a premium portrait editorial poster.
 
 ## Demos
 
-The tested results are compressed as WebP with a maximum width of 720px and displayed in two 320px columns for quick browsing.
-
-| Canal Rhythms | Mountains in Mist |
-| --- | --- |
-| <img src="./assets/demo/water-town.webp" alt="Canal Rhythms demo" width="320"> | <img src="./assets/demo/misty-pillars.webp" alt="Mountains in Mist demo" width="320"> |
-| Lakeside Golden Light | City Through the Trees |
-| <img src="./assets/demo/lakeside-golden-light.webp" alt="Lakeside Golden Light demo" width="320"> | <img src="./assets/demo/city-through-trees.webp" alt="City Through the Trees demo" width="320"> |
+| <strong>Canal Rhythms</strong><br><img src="./assets/demo/water-town.webp" alt="Canal Rhythms demo" height="480"> | <strong>Mountains in Mist</strong><br><img src="./assets/demo/misty-pillars.webp" alt="Mountains in Mist demo" height="480"> |
+| :--- | :--- |
+| <strong>Lakeside Golden Light</strong><br><img src="./assets/demo/lakeside-golden-light.webp" alt="Lakeside Golden Light demo" height="480"> | <strong>City Through the Trees</strong><br><img src="./assets/demo/city-through-trees.webp" alt="City Through the Trees demo" height="480"> |
 
 ## Visual structure
 

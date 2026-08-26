@@ -37,11 +37,8 @@ Size: 1080×1350
 
 ## Demos
 
-The four tested results below are compressed to **720 × 960 WebP** and displayed in two 320px columns. Each label and image share the same cell so their GitHub association remains stable.
-
-|  |  |
-| --- | --- |
 | <strong>Beijing · Temple of Heaven</strong><br><img src="./assets/demo/beijing-temple-of-heaven.webp" alt="Beijing Temple of Heaven travel postcard demo" width="320"> | <strong>Shanghai · Oriental Pearl Tower</strong><br><img src="./assets/demo/shanghai-oriental-pearl.webp" alt="Shanghai Oriental Pearl travel postcard demo" width="320"> |
+| :--- | :--- |
 | <strong>Shenzhen · Ping An Finance Center</strong><br><img src="./assets/demo/shenzhen-ping-an.webp" alt="Shenzhen Ping An Finance Center travel postcard demo" width="320"> | <strong>Guangzhou · Canton Tower</strong><br><img src="./assets/demo/guangzhou-canton-tower.webp" alt="Guangzhou Canton Tower travel postcard demo" width="320"> |
 
 ## Files

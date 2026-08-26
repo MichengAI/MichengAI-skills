@@ -37,11 +37,8 @@
 
 ## 演示
 
-以下 4 个实测结果均压缩为 **720 × 960 WebP**，并以 320px 宽双列展示；标题与图片放在同一单元格中，确保 GitHub 页面对应稳定。
-
-|  |  |
-| --- | --- |
 | <strong>北京・天坛</strong><br><img src="./assets/demo/beijing-temple-of-heaven.webp" alt="北京天坛旅行明信片演示" width="320"> | <strong>上海・东方明珠</strong><br><img src="./assets/demo/shanghai-oriental-pearl.webp" alt="上海东方明珠旅行明信片演示" width="320"> |
+| :--- | :--- |
 | <strong>深圳・平安金融中心</strong><br><img src="./assets/demo/shenzhen-ping-an.webp" alt="深圳平安金融中心旅行明信片演示" width="320"> | <strong>广州・广州塔</strong><br><img src="./assets/demo/guangzhou-canton-tower.webp" alt="广州塔旅行明信片演示" width="320"> |
 
 ## 文件

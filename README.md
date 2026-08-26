@@ -11,6 +11,7 @@
 | MichengAI Photo Geometry Poster | 将参考照片转化为“写实摄影 + 同构图几何插画 + 编辑排版”的竖版海报 | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `$michengai-photo-geometry-poster` |
 | MichengAI Rubber Stamp Field Notes | 将每张旅行照片分别制作成“真实照片 + 旧纸 + 小型多色橡皮章 + 中英文档案文字”的 4:3 横版田野笔记 | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `$michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | 根据必填城市生成“当代旅行艺术 + 镜面倒影 + 杂志排版”的收藏级城市印刷品，支持尺寸、国家与标语 | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `$michengai-city-reflection-travel-print` |
+| MichengAI City Travel Postcard | 根据城市生成“日式旅游杂志插画 + 纸张拼贴 + 多语编辑排版”的旅行明信片，支持尺寸 | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `$michengai-city-travel-postcard` |
 
 ## 安装
 
@@ -40,6 +41,10 @@ Copy-Item -Recurse `
 Copy-Item -Recurse `
   .\MichengAI-skills\michengai-city-reflection-travel-print `
   "$HOME\.codex\skills\michengai-city-reflection-travel-print"
+
+Copy-Item -Recurse `
+  .\MichengAI-skills\michengai-city-travel-postcard `
+  "$HOME\.codex\skills\michengai-city-travel-postcard"
 ```
 
 macOS 或 Linux 示例：
@@ -53,6 +58,9 @@ cp -R ./MichengAI-skills/michengai-rubber-stamp-field-notes \
 
 cp -R ./MichengAI-skills/michengai-city-reflection-travel-print \
   ~/.codex/skills/michengai-city-reflection-travel-print
+
+cp -R ./MichengAI-skills/michengai-city-travel-postcard \
+  ~/.codex/skills/michengai-city-travel-postcard
 ```
 
 ## 使用示例
@@ -67,6 +75,10 @@ cp -R ./MichengAI-skills/michengai-city-reflection-travel-print \
 
 ```text
 使用 $michengai-city-reflection-travel-print 生成城市旅行艺术印刷品。城市：香港；尺寸：3:4。
+```
+
+```text
+使用 $michengai-city-travel-postcard 生成城市插画明信片。城市：上海；尺寸：3:4。
 ```
 
 ## 仓库结构
@@ -89,12 +101,18 @@ MichengAI-skills/
 │   ├── agents/
 │   ├── assets/demo/
 │   └── references/
-└── michengai-city-reflection-travel-print/
+├── michengai-city-reflection-travel-print/
     ├── README.md
     ├── README.en.md
     ├── SKILL.md
     ├── agents/
     ├── assets/demo/
+    └── references/
+└── michengai-city-travel-postcard/
+    ├── README.md
+    ├── README.en.md
+    ├── SKILL.md
+    ├── agents/
     └── references/
 ```
 

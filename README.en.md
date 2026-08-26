@@ -11,6 +11,7 @@ A collection of style-specific photo-editing skills for Codex. Each skill has a 
 | MichengAI Photo Geometry Poster | Turns a reference photo into a portrait poster combining realistic photography, an aligned geometric reinterpretation, and editorial typography | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `$michengai-photo-geometry-poster` |
 | MichengAI Rubber Stamp Field Notes | Turns each travel photo into a separate 4:3 field-note poster combining an authentic photograph, aged paper, a small multi-color rubber stamp, and localized Chinese or English archival text | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `$michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | Creates a collectible city print with contemporary travel art, mirror-like reflections, and magazine typography; accepts city, size, country, and slogan inputs | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `$michengai-city-reflection-travel-print` |
+| MichengAI City Travel Postcard | Creates a Japanese tourism-editorial illustrated postcard with paper collage and multilingual typography; accepts city and size inputs | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `$michengai-city-travel-postcard` |
 
 ## Installation
 
@@ -40,6 +41,10 @@ Copy-Item -Recurse `
 Copy-Item -Recurse `
   .\MichengAI-skills\michengai-city-reflection-travel-print `
   "$HOME\.codex\skills\michengai-city-reflection-travel-print"
+
+Copy-Item -Recurse `
+  .\MichengAI-skills\michengai-city-travel-postcard `
+  "$HOME\.codex\skills\michengai-city-travel-postcard"
 ```
 
 macOS or Linux:
@@ -53,6 +58,9 @@ cp -R ./MichengAI-skills/michengai-rubber-stamp-field-notes \
 
 cp -R ./MichengAI-skills/michengai-city-reflection-travel-print \
   ~/.codex/skills/michengai-city-reflection-travel-print
+
+cp -R ./MichengAI-skills/michengai-city-travel-postcard \
+  ~/.codex/skills/michengai-city-travel-postcard
 ```
 
 ## Usage examples
@@ -67,6 +75,10 @@ Use $michengai-rubber-stamp-field-notes to process each uploaded travel photo as
 
 ```text
 Use $michengai-city-reflection-travel-print to create a city travel art print. City: Hong Kong; Size: 3:4.
+```
+
+```text
+Use $michengai-city-travel-postcard to create an illustrated travel postcard. City: Shanghai; Size: 3:4.
 ```
 
 ## Repository structure
@@ -89,12 +101,18 @@ MichengAI-skills/
 │   ├── agents/
 │   ├── assets/demo/
 │   └── references/
-└── michengai-city-reflection-travel-print/
+├── michengai-city-reflection-travel-print/
     ├── README.md
     ├── README.en.md
     ├── SKILL.md
     ├── agents/
     ├── assets/demo/
+    └── references/
+└── michengai-city-travel-postcard/
+    ├── README.md
+    ├── README.en.md
+    ├── SKILL.md
+    ├── agents/
     └── references/
 ```
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI City Travel Postcard"
+  short_description: "根据城市生成日式旅游杂志风插画明信片"
+  default_prompt: "Use $michengai-city-travel-postcard to create a 3:4 illustrated travel postcard. City: Shanghai."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI City Reflection Travel Print"
+  short_description: "根据城市生成带倒影与杂志排版的收藏级当代旅行艺术印刷品"
+  default_prompt: "Use $michengai-city-reflection-travel-print to create a 3:4 travel art print for Hong Kong."

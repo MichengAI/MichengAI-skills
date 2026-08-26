@@ -6,17 +6,13 @@
 
 ## 演示
 
-### 水巷清韵
+以下实测结果均压缩为最大 720px 宽的 WebP，并以 320px 宽双列展示，方便快速浏览。
 
-<p align="center"><img src="./assets/demo/water-town.webp" alt="水巷清韵示例" width="480"></p>
-
-### 云雾峰林
-
-<p align="center"><img src="./assets/demo/misty-pillars.webp" alt="云雾峰林示例" width="480"></p>
-
-### 湖畔金晖
-
-<p align="center"><img src="./assets/demo/lakeside-golden-light.webp" alt="湖畔金晖示例" width="480"></p>
+| 水巷清韵 | 云雾峰林 |
+| --- | --- |
+| <img src="./assets/demo/water-town.webp" alt="水巷清韵示例" width="320"> | <img src="./assets/demo/misty-pillars.webp" alt="云雾峰林示例" width="320"> |
+| 湖畔金晖 | 林荫穿城 |
+| <img src="./assets/demo/lakeside-golden-light.webp" alt="湖畔金晖示例" width="320"> | <img src="./assets/demo/city-through-trees.webp" alt="林荫穿城示例" width="320"> |
 
 ## 视觉结构
 

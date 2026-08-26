@@ -33,7 +33,7 @@ Use Chinese copy, start numbering at 01, use the year 2026, and never create a c
 
 ## Demos
 
-The five tested results below are compressed to **720 × 540 WebP** and constrained to 360px wide in this README to balance page loading and text legibility.
+The six tested results below are compressed to **720 × 540 WebP** and constrained to 360px wide in this README to balance page loading and text legibility.
 
 | London · Westminster | New York · Statue of Liberty |
 | --- | --- |
@@ -41,9 +41,8 @@ The five tested results below are compressed to **720 × 540 WebP** and constrai
 | Hong Kong Wan Chai · Red Sails | Pearl River Estuary · Power Pylons |
 | <img src="./assets/demo/hong-kong-red-sails.webp" alt="Hong Kong red sails field-notes demo" width="360"> | <img src="./assets/demo/pearl-river-power-pylons.webp" alt="Pearl River power pylons field-notes demo" width="360"> |
 
-**Hong Kong Wan Chai · Ferris Wheel**
-
-<p align="center"><img src="./assets/demo/hong-kong-ferris-wheel.webp" alt="Hong Kong Ferris wheel field-notes demo" width="360"></p>
+| Hong Kong Wan Chai · Ferris Wheel | Old Courtyard · Bamboo |
+| <img src="./assets/demo/hong-kong-ferris-wheel.webp" alt="Hong Kong Ferris wheel field-notes demo" width="360"> | <img src="./assets/demo/old-courtyard-bamboo.webp" alt="Old courtyard bamboo field-notes demo" width="360"> |
 
 ## Files
 
@@ -51,4 +50,4 @@ The five tested results below are compressed to **720 × 540 WebP** and constrai
 - [`references/prompt-template.md`](./references/prompt-template.md): adaptive image-generation template.
 - [`agents/openai.yaml`](./agents/openai.yaml): Codex display metadata and default invocation.
 
-> This style does not have a demo image yet. Future tested outputs can be stored under `assets/demo/` in this child skill.
+> Demo images are stored under `assets/demo/` in this child skill; future tested outputs can be added there.

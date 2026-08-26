@@ -33,7 +33,7 @@ Skill 会遵循用户明确指定的语言；未指定时使用当前对话语�
 
 ## 演示
 
-以下 5 个实测结果均已压缩为 **720 × 540 WebP**，并在 README 中限制为 360px 宽，兼顾页面加载和文字可读性。
+以下 6 个实测结果均已压缩为 **720 × 540 WebP**，并在 README 中限制为 360px 宽，兼顾页面加载和文字可读性。
 
 | 伦敦・威斯敏斯特 | 纽约・自由女神像 |
 | --- | --- |
@@ -41,9 +41,8 @@ Skill 会遵循用户明确指定的语言；未指定时使用当前对话语�
 | 香港湾仔・红帆 | 珠江口・海上电塔 |
 | <img src="./assets/demo/hong-kong-red-sails.webp" alt="香港湾仔红帆田野笔记演示" width="360"> | <img src="./assets/demo/pearl-river-power-pylons.webp" alt="珠江口海上电塔田野笔记演示" width="360"> |
 
-**香港湾仔・摩天轮**
-
-<p align="center"><img src="./assets/demo/hong-kong-ferris-wheel.webp" alt="香港湾仔摩天轮田野笔记演示" width="360"></p>
+| 香港湾仔・摩天轮 | 旧宅庭院・竹影 |
+| <img src="./assets/demo/hong-kong-ferris-wheel.webp" alt="香港湾仔摩天轮田野笔记演示" width="360"> | <img src="./assets/demo/old-courtyard-bamboo.webp" alt="旧宅庭院竹影田野笔记演示" width="360"> |
 
 ## 文件
 
@@ -51,4 +50,4 @@ Skill 会遵循用户明确指定的语言；未指定时使用当前对话语�
 - [`references/prompt-template.md`](./references/prompt-template.md)：自适应图片生成模板。
 - [`agents/openai.yaml`](./agents/openai.yaml)：Codex 展示名称和默认调用提示。
 
-> 当前尚未加入该风格的演示图；后续实测结果可放入本目录的 `assets/demo/`。
+> 演示图存放于本目录的 `assets/demo/`，后续实测结果可继续补充。

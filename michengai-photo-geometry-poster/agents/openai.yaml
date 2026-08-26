@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI Photo Geometry Poster"
+  short_description: "将上传参考照片重制为写实摄影与几何插画并置的高级编辑海报"
+  default_prompt: "Use $michengai-photo-geometry-poster to turn my uploaded photo into a premium editorial poster."

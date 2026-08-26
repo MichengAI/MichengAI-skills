@@ -9,7 +9,7 @@ Creates a collectible contemporary travel art print for a city. Genuine landscap
 | Parameter | Required | Behavior |
 | --- | --- | --- |
 | `city` | Yes | The city is the visual core and top title. The skill asks when it is missing. |
-| `size` | No | Supports an aspect ratio or pixel dimensions; defaults to exact `768×1024` (`3:4`) output. |
+| `size` | No | Supports an aspect ratio or pixel dimensions; defaults to a `3:4` request. When the tool supports pixels, it requests `768×1024`. |
 | `country` | No | Inferred from the city when reliable; the skill asks if the city is ambiguous. |
 | `slogan` | No | Generated from authentic city character when absent; rendered verbatim when supplied. |
 
@@ -20,7 +20,7 @@ Creates a collectible contemporary travel art print for a city. Genuine landscap
 - Places the scene above a calm glass-like surface with soft, gently faded vertical reflections.
 - Uses extremely subtle translucent geometric borders for a contemporary gallery-art atmosphere.
 - Renders only a small city name, slogan, and `No. 05 — year` at the top; no unrequested readable text appears in the built environment.
-- Uses non-semantic crop-and-resize after generation to deliver an exact requested size instead of relying only on a prompted ratio.
+- Requests the target ratio or pixels directly from the image-generation tool; it does not depend on Python, scripts, cropping, padding, or resizing to change the composition afterwards.
 
 ## Usage
 
@@ -56,4 +56,3 @@ The tested examples are compressed to **720 × 960 WebP** and displayed in two 3
 - [`SKILL.md`](./SKILL.md): parameter rules, city selection logic, and visual constraints.
 - [`references/prompt-template.md`](./references/prompt-template.md): city-specific image-generation prompt template.
 - [`agents/openai.yaml`](./agents/openai.yaml): Codex display metadata and default invocation.
-- [`scripts/fit_canvas.py`](./scripts/fit_canvas.py): crops and resizes a generated result to the exact final canvas.

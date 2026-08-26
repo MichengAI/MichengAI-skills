@@ -1,11 +1,11 @@
 # City Reflection Travel Print Prompt Template
 
-每次只处理一个城市。将全部方括号变量替换为实际内容；不要把本模板的说明文字渲染到成品中。生成阶段预留安全构图区，之后使用 `scripts/fit_canvas.py` 输出精确目标尺寸。
+每次只处理一个城市。将全部方括号变量替换为实际内容；不要把本模板的说明文字渲染到成品中。直接在图像生成请求中要求目标比例或像素尺寸，不进行任何后期裁切、补边或缩放。
 
 ```text
 Use case: stylized-concept
 Asset type: collectible contemporary city travel art print
-Primary request: create one premium [REQUESTED RATIO] travel artwork for [CITY], [COUNTRY]. Compose all essential details inside the central 84% of the canvas: reserve at least 8% crop-safe space on every edge because the image will be non-semantically cropped to the exact requested final size after generation.
+Primary request: create one premium [REQUESTED RATIO] travel artwork for [CITY], [COUNTRY]. Generate directly at the requested ratio [AND TARGET PIXEL SIZE IF THE TOOL SUPPORTS IT]. Preserve the full intended composition: do not rely on later cropping, padding, or resizing.
 
 CITY PROFILE
 - Geographic setting: [AUTHENTIC GEOGRAPHIC SETTING]
@@ -25,20 +25,16 @@ Text (render exactly these three top-aligned text elements and no other readable
 "No. 05 — [YEAR]"
 Use refined small magazine typography with wide letter spacing, minimal weight, and precise alignment. Render the supplied city name and slogan character-for-character in their intended language. Do not render lettering, plaques, store signs, logos, labels, or watermarks on buildings, streets, boats, or backgrounds.
 
-Constraints: make [CITY] unmistakable through the authentic profile; do not force elements that do not belong. Preserve one cohesive landscape instead of a landmark collage. Keep every essential element inside the crop-safe area and respect the requested [REQUESTED RATIO].
+Constraints: make [CITY] unmistakable through the authentic profile; do not force elements that do not belong. Preserve one cohesive landscape instead of a landmark collage. Respect the requested [REQUESTED RATIO] directly in the generated image; do not crop, pad, or resize the result after generation.
 
 Avoid: anime aesthetics, photorealistic collages, generic stock imagery, oversized landmarks, excessive cultural symbols, clutter, excessive decoration, oversized typography, logos, watermarks, brand marks, map graphics, flags, borders, unrelated text, invented signage, and overly saturated tourist-poster colors.
 ```
 
-## 完成后尺寸交付
+## 尺寸交付
 
-生成完成后运行：
-
-```bash
-python scripts/fit_canvas.py generated.png final.png --size 768x1024
-```
-
-若用户指定明确像素，替换 `--size`；脚本以居中、非语义裁切和高质量缩放交付精确尺寸。
+- 在生成请求中直接传入用户指定比例；未指定时为 `3:4`。
+- 工具支持明确像素尺寸时，一并传入目标像素；未支持时不伪造“精确像素”承诺。
+- 若首次结果比例不符，做一次针对比例的重新生成；不得用后期裁切、补边或缩放改变构图。
 
 ## 示例
 

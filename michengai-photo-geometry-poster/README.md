@@ -8,15 +8,15 @@
 
 ### 水巷清韵
 
-![水巷清韵](./assets/demo/water-town.png)
+<p align="center"><img src="./assets/demo/water-town.webp" alt="水巷清韵示例" width="480"></p>
 
 ### 云雾峰林
 
-![云雾峰林](./assets/demo/misty-pillars.png)
+<p align="center"><img src="./assets/demo/misty-pillars.webp" alt="云雾峰林示例" width="480"></p>
 
 ### 湖畔金晖
 
-![湖畔金晖](./assets/demo/lakeside-golden-light.png)
+<p align="center"><img src="./assets/demo/lakeside-golden-light.webp" alt="湖畔金晖示例" width="480"></p>
 
 ## 视觉结构
 

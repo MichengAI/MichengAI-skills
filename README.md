@@ -9,7 +9,7 @@
 | Skill | 功能 | 文档 | 调用方式 |
 | --- | --- | --- | --- |
 | MichengAI Photo Geometry Poster | 将参考照片转化为“写实摄影 + 同构图几何插画 + 编辑排版”的竖版海报 | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `$michengai-photo-geometry-poster` |
-| MichengAI Rubber Stamp Field Notes | 将每张旅行照片分别制作成“真实照片 + 旧纸 + 小型多色橡皮章 + 英文档案文字”的 4:3 横版田野笔记 | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `$michengai-rubber-stamp-field-notes` |
+| MichengAI Rubber Stamp Field Notes | 将每张旅行照片分别制作成“真实照片 + 旧纸 + 小型多色橡皮章 + 中英文档案文字”的 4:3 横版田野笔记 | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `$michengai-rubber-stamp-field-notes` |
 
 ## 安装
 

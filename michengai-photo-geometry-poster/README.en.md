@@ -8,15 +8,15 @@ Transforms an uploaded reference photo into a premium portrait editorial poster.
 
 ### Canal Rhythms
 
-![Canal Rhythms](./assets/demo/water-town.png)
+<p align="center"><img src="./assets/demo/water-town.webp" alt="Canal Rhythms demo" width="480"></p>
 
 ### Mountains in Mist
 
-![Mountains in Mist](./assets/demo/misty-pillars.png)
+<p align="center"><img src="./assets/demo/misty-pillars.webp" alt="Mountains in Mist demo" width="480"></p>
 
 ### Lakeside Golden Light
 
-![Lakeside Golden Light](./assets/demo/lakeside-golden-light.png)
+<p align="center"><img src="./assets/demo/lakeside-golden-light.webp" alt="Lakeside Golden Light demo" width="480"></p>
 
 ## Visual structure
 

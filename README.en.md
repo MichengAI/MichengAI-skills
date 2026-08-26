@@ -9,7 +9,7 @@ A collection of style-specific photo-editing skills for Codex. Each skill has a 
 | Skill | What it does | Documentation | Invoke with |
 | --- | --- | --- | --- |
 | MichengAI Photo Geometry Poster | Turns a reference photo into a portrait poster combining realistic photography, an aligned geometric reinterpretation, and editorial typography | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `$michengai-photo-geometry-poster` |
-| MichengAI Rubber Stamp Field Notes | Turns each travel photo into a separate 4:3 field-note poster combining an authentic photograph, aged paper, a small multi-color rubber stamp, and archival English text | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `$michengai-rubber-stamp-field-notes` |
+| MichengAI Rubber Stamp Field Notes | Turns each travel photo into a separate 4:3 field-note poster combining an authentic photograph, aged paper, a small multi-color rubber stamp, and localized Chinese or English archival text | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `$michengai-rubber-stamp-field-notes` |
 
 ## Installation
 

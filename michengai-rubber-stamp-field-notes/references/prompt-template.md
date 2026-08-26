@@ -29,12 +29,12 @@ Use only these 2–4 muted spot inks sampled naturally from the photo: [ink colo
 
 FIELD-NOTE TYPOGRAPHY
 Place a small amount of quiet archival/typewriter text below or beside the stamp within the existing whitespace. Render exactly these four lines and no other text:
-"LOCATION — [ENGLISH LOCATION NAME]"
-"NO. — [NUMBER]"
+"[LOCATION LABEL] — [LOCATION NAME]"
+"[NUMBER LABEL] — [NUMBER]"
 "[KEYWORD 1] / [KEYWORD 2] / [KEYWORD 3]"
 "[GREGORIAN YEAR]"
 
-Spell every word correctly. Use understated typewriter or archival field-note typography with extremely slight mechanical irregularity. Keep it secondary to the photograph. Do not add slogans, brands, tourist phrases, decorative quotes, captions, or unnecessary text.
+Use the user’s explicitly requested language; if none is specified, use the current conversation language. For Chinese, use a clear, accurate Chinese archival/bookish sans-serif style and labels such as “地点” and “编号”. For English, use understated typewriter or archival field-note typography and labels such as “LOCATION” and “NO.”. Render every requested character exactly. Keep typography secondary to the photograph. Do not add slogans, brands, tourist phrases, decorative quotes, captions, or unnecessary text.
 
 FINAL CHARACTER
 The result should feel like a real travel photograph mounted beside a small handmade field stamp on an architect's personal notebook page: quiet, tactile, documentary, collectible, and genuinely handmade. The photograph remains the strongest visual element; the stamp is only a small fragment of memory extracted from it.
@@ -45,6 +45,13 @@ Avoid obvious dividing lines, circular seals, postage-stamp borders, perforation
 ## 字段示例
 
 仅用于理解格式，不要照抄内容：
+
+```text
+地点 — 香港湾仔
+编号 — 01
+红帆 / 港湾 / 天际线
+2026
+```
 
 ```text
 LOCATION — SUMMER PALACE, BEIJING

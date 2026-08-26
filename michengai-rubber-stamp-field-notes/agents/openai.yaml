@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI Rubber Stamp Field Notes"
+  short_description: "将每张旅行照片分别制作成自然写实的橡皮章田野笔记海报"
+  default_prompt: "Use $michengai-rubber-stamp-field-notes to turn each uploaded travel photo into a separate field-note poster."

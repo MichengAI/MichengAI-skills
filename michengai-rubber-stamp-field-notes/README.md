@@ -27,7 +27,7 @@ Skill 会遵循用户明确指定的语言；未指定时使用当前对话语�
 ## 使用
 
 ```text
-使用 $michengai-rubber-stamp-field-notes 分别处理我上传的旅行照片。
+使用名为 `michengai-rubber-stamp-field-notes` 的 Skill 分别处理我上传的旅行照片。
 文案使用中文，编号从 01 开始，年份使用 2026；每张照片单独输出，不要拼图。
 ```
 
@@ -42,6 +42,6 @@ Skill 会遵循用户明确指定的语言；未指定时使用当前对话语�
 
 - [`SKILL.md`](./SKILL.md)：逐图处理流程、语言规则、画面比例和橡皮章约束。
 - [`references/prompt-template.md`](./references/prompt-template.md)：自适应图片生成模板。
-- [`agents/openai.yaml`](./agents/openai.yaml)：Codex 展示名称和默认调用提示。
+- [`agents/openai.yaml`](./agents/openai.yaml)：可选的 OpenAI/Codex 集成元数据和默认提示；核心 Skill 可独立使用。
 
 > 演示图存放于本目录的 `assets/demo/`，后续实测结果可继续补充。

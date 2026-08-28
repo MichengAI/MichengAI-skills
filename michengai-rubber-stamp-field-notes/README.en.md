@@ -27,7 +27,7 @@ The skill follows an explicitly requested language or, when none is specified, t
 ## Usage
 
 ```text
-Use $michengai-rubber-stamp-field-notes to process each uploaded travel photo separately.
+Use the `michengai-rubber-stamp-field-notes` skill to process each uploaded travel photo separately.
 Use Chinese copy, start numbering at 01, use the year 2026, and never create a collage.
 ```
 
@@ -42,6 +42,6 @@ Use Chinese copy, start numbering at 01, use the year 2026, and never create a c
 
 - [`SKILL.md`](./SKILL.md): per-photo workflow, language behavior, layout ratios, and rubber-stamp constraints.
 - [`references/prompt-template.md`](./references/prompt-template.md): adaptive image-generation template.
-- [`agents/openai.yaml`](./agents/openai.yaml): Codex display metadata and default invocation.
+- [`agents/openai.yaml`](./agents/openai.yaml): optional OpenAI/Codex integration metadata and default prompt; the core skill works independently.
 
 > Demo images are stored under `assets/demo/` in this child skill; future tested outputs can be added there.

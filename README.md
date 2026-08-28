@@ -2,84 +2,76 @@
 
 **中文** · [English](./README.en.md)
 
-面向 Codex 的迷城 AI 风格化照片编辑 Skills 集合。每个 Skill 使用独立、可辨识的视觉语言，并提供中英文说明。
+迷城 AI 的风格化照片编辑与旅行视觉 Skills 集合，遵循可被兼容 Agent Skills 的工具发现和调用的目录结构。每个 Skill 都有独立、可辨识的视觉语言，并提供中英文说明。
 
 ## Skills
 
-| Skill | 功能 | 文档 | 调用方式 |
+| Skill | 功能 | 文档 | Skill ID |
 | --- | --- | --- | --- |
-| MichengAI Photo Geometry Poster | 将参考照片转化为“写实摄影 + 同构图几何插画 + 编辑排版”的竖版海报 | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `$michengai-photo-geometry-poster` |
-| MichengAI Rubber Stamp Field Notes | 将每张旅行照片分别制作成“真实照片 + 旧纸 + 小型多色橡皮章 + 中英文档案文字”的 4:3 横版田野笔记 | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `$michengai-rubber-stamp-field-notes` |
-| MichengAI City Reflection Travel Print | 根据必填城市生成“当代旅行艺术 + 镜面倒影 + 杂志排版”的收藏级城市印刷品，支持尺寸、国家与标语 | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `$michengai-city-reflection-travel-print` |
-| MichengAI City Travel Postcard | 根据城市生成“日式旅游杂志插画 + 纸张拼贴 + 多语编辑排版”的旅行明信片，支持尺寸 | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `$michengai-city-travel-postcard` |
+| MichengAI Photo Geometry Poster | 将参考照片转化为“写实摄影 + 同构图几何插画 + 编辑排版”的竖版海报 | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `michengai-photo-geometry-poster` |
+| MichengAI Rubber Stamp Field Notes | 将每张旅行照片分别制作成“真实照片 + 旧纸 + 小型多色橡皮章 + 中英文档案文字”的田野笔记 | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `michengai-rubber-stamp-field-notes` |
+| MichengAI City Reflection Travel Print | 根据必填城市生成“当代旅行艺术 + 镜面倒影 + 杂志排版”的收藏级城市印刷品，支持尺寸、国家与标语 | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `michengai-city-reflection-travel-print` |
+| MichengAI City Travel Postcard | 根据城市生成“日式旅游杂志插画 + 纸张拼贴 + 多语编辑排版”的旅行明信片，支持尺寸 | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `michengai-city-travel-postcard` |
 
 ## 安装
 
-克隆仓库：
+推荐使用通用的 [Skills CLI](https://github.com/vercel-labs/skills)。它会从 GitHub 仓库识别包含 `SKILL.md` 的目录，并按当前 Agent 的规则安装。
+
+查看可用 Skills：
 
 ```bash
-git clone https://github.com/MichengAI/MichengAI-skills.git
+npx skills add MichengAI/MichengAI-skills --list
 ```
 
-将需要的子 Skill 文件夹复制到 Codex Skills 目录：
-
-```text
-~/.codex/skills/
-```
-
-Windows PowerShell 示例：
-
-```powershell
-Copy-Item -Recurse `
-  .\MichengAI-skills\michengai-photo-geometry-poster `
-  "$HOME\.codex\skills\michengai-photo-geometry-poster"
-
-Copy-Item -Recurse `
-  .\MichengAI-skills\michengai-rubber-stamp-field-notes `
-  "$HOME\.codex\skills\michengai-rubber-stamp-field-notes"
-
-Copy-Item -Recurse `
-  .\MichengAI-skills\michengai-city-reflection-travel-print `
-  "$HOME\.codex\skills\michengai-city-reflection-travel-print"
-
-Copy-Item -Recurse `
-  .\MichengAI-skills\michengai-city-travel-postcard `
-  "$HOME\.codex\skills\michengai-city-travel-postcard"
-```
-
-macOS 或 Linux 示例：
+安装单个 Skill：
 
 ```bash
-cp -R ./MichengAI-skills/michengai-photo-geometry-poster \
-  ~/.codex/skills/michengai-photo-geometry-poster
-
-cp -R ./MichengAI-skills/michengai-rubber-stamp-field-notes \
-  ~/.codex/skills/michengai-rubber-stamp-field-notes
-
-cp -R ./MichengAI-skills/michengai-city-reflection-travel-print \
-  ~/.codex/skills/michengai-city-reflection-travel-print
-
-cp -R ./MichengAI-skills/michengai-city-travel-postcard \
-  ~/.codex/skills/michengai-city-travel-postcard
+npx skills add MichengAI/MichengAI-skills \
+  --skill michengai-rubber-stamp-field-notes
 ```
 
-## 使用示例
+安装仓库中的全部 Skills：
+
+```bash
+npx skills add MichengAI/MichengAI-skills \
+  --skill "*"
+```
+
+如需固定安装到某个 Agent 的全局目录，请显式指定 Agent。以 Codex 为例：
+
+```bash
+npx skills add MichengAI/MichengAI-skills \
+  --global --agent codex \
+  --skill michengai-rubber-stamp-field-notes
+```
+
+也可以手动复制任一含 `SKILL.md` 的子目录到所用 Agent 的 Skills 目录。具体路径与调用语法请遵循该 Agent 的官方说明。
+
+## 使用
+
+在支持 Agent Skills 的客户端中，以该平台自己的调用语法引用上表中的 Skill ID。例如：
 
 ```text
-使用 $michengai-photo-geometry-poster 把这张照片处理成中文编辑海报。
+使用 `michengai-photo-geometry-poster` 把这张照片处理成中文编辑海报。
 ```
 
 ```text
-使用 $michengai-rubber-stamp-field-notes 分别处理我上传的旅行照片，每张照片单独输出。
+使用 `michengai-rubber-stamp-field-notes` 分别处理我上传的旅行照片，每张照片单独输出。
 ```
 
 ```text
-使用 $michengai-city-reflection-travel-print 生成城市旅行艺术印刷品。城市：香港；尺寸：3:4。
+使用 `michengai-city-reflection-travel-print` 生成城市旅行艺术印刷品。城市：香港；尺寸：3:4。
 ```
 
 ```text
-使用 $michengai-city-travel-postcard 生成城市插画明信片。城市：上海；尺寸：3:4。
+使用 `michengai-city-travel-postcard` 生成城市插画明信片。城市：上海；尺寸：3:4。
 ```
+
+在 Codex 中可使用其 `$skill-id` 语法；其他 Agent 则使用各自的 Skills 调用方式。
+
+## 平台适配
+
+每个子目录中的 `SKILL.md` 是跨 Agent 的核心指令与唯一事实来源。`agents/openai.yaml` 仅是可选的 OpenAI/Codex 展示元数据和默认提示，其他兼容客户端可忽略该文件。
 
 ## 仓库结构
 
@@ -91,29 +83,12 @@ MichengAI-skills/
 │   ├── README.md
 │   ├── README.en.md
 │   ├── SKILL.md
-│   ├── agents/
+│   ├── agents/              # 可选平台适配
 │   ├── assets/demo/
 │   └── references/
 ├── michengai-rubber-stamp-field-notes/
-│   ├── README.md
-│   ├── README.en.md
-│   ├── SKILL.md
-│   ├── agents/
-│   ├── assets/demo/
-│   └── references/
 ├── michengai-city-reflection-travel-print/
-    ├── README.md
-    ├── README.en.md
-    ├── SKILL.md
-    ├── agents/
-    ├── assets/demo/
-    └── references/
 └── michengai-city-travel-postcard/
-    ├── README.md
-    ├── README.en.md
-    ├── SKILL.md
-    ├── agents/
-    └── references/
 ```
 
 各子 Skill 的详细能力、提示示例和演示图请查看对应目录中的 README。

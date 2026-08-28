@@ -24,13 +24,13 @@
 ## 使用
 
 ```text
-使用 $michengai-city-travel-postcard 生成城市插画明信片。
+使用名为 `michengai-city-travel-postcard` 的 Skill 生成城市插画明信片。
 城市：上海
 尺寸：3:4
 ```
 
 ```text
-使用 $michengai-city-travel-postcard 生成城市插画明信片。
+使用名为 `michengai-city-travel-postcard` 的 Skill 生成城市插画明信片。
 城市：深圳
 尺寸：1080×1350
 ```
@@ -45,4 +45,4 @@
 
 - [`SKILL.md`](./SKILL.md)：参数、城市事实规则、视觉约束与验证标准。
 - [`references/prompt-template.md`](./references/prompt-template.md)：城市专属生成提示词模板。
-- [`agents/openai.yaml`](./agents/openai.yaml)：Codex 展示名称和默认调用提示。
+- [`agents/openai.yaml`](./agents/openai.yaml)：可选的 OpenAI/Codex 集成元数据和默认提示；核心 Skill 可独立使用。

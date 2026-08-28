@@ -25,7 +25,7 @@
 ## 使用
 
 ```text
-使用 $michengai-city-reflection-travel-print 生成城市旅行艺术印刷品。
+使用名为 `michengai-city-reflection-travel-print` 的 Skill 生成城市旅行艺术印刷品。
 城市：香港
 国家：中国
 尺寸：3:4
@@ -35,7 +35,7 @@
 只提供必填参数：
 
 ```text
-使用 $michengai-city-reflection-travel-print 生成一张城市旅行艺术印刷品。
+使用名为 `michengai-city-reflection-travel-print` 的 Skill 生成一张城市旅行艺术印刷品。
 城市：里斯本
 ```
 
@@ -50,4 +50,4 @@
 
 - [`SKILL.md`](./SKILL.md)：参数规则、城市选择逻辑与视觉约束。
 - [`references/prompt-template.md`](./references/prompt-template.md)：城市专属生成提示词模板。
-- [`agents/openai.yaml`](./agents/openai.yaml)：Codex 展示名称和默认调用提示。
+- [`agents/openai.yaml`](./agents/openai.yaml)：可选的 OpenAI/Codex 集成元数据和默认提示；核心 Skill 可独立使用。

@@ -28,13 +28,13 @@ Transforms an uploaded reference photo into a premium portrait editorial poster.
 ## Usage
 
 ```text
-Use $michengai-photo-geometry-poster to turn my uploaded photo into a premium editorial poster.
+Use the `michengai-photo-geometry-poster` skill to turn my uploaded photo into a premium editorial poster.
 ```
 
 With specified copy:
 
 ```text
-Use $michengai-photo-geometry-poster on this photo.
+Use the `michengai-photo-geometry-poster` skill on this photo.
 Render the title "MOUNTAINS IN MIST", the subtitle "Sandstone pillars rise through drifting mist above the forest.", and the year "2026".
 ```
 
@@ -42,5 +42,5 @@ Render the title "MOUNTAINS IN MIST", the subtitle "Sandstone pillars rise throu
 
 - [`SKILL.md`](./SKILL.md): workflow, visual constraints, and copy rules.
 - [`references/prompt-template.md`](./references/prompt-template.md): adaptive image-generation template.
-- [`agents/openai.yaml`](./agents/openai.yaml): Codex display metadata and default invocation.
+- [`agents/openai.yaml`](./agents/openai.yaml): optional OpenAI/Codex integration metadata and default prompt; the core skill works independently.
 - [`assets/demo/`](./assets/demo/): generated output demos.

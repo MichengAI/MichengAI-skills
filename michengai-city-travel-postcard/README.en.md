@@ -24,13 +24,13 @@ Creates a premium illustrated travel postcard for a specified city. One geograph
 ## Usage
 
 ```text
-Use $michengai-city-travel-postcard to create an illustrated travel postcard.
+Use the `michengai-city-travel-postcard` skill to create an illustrated travel postcard.
 City: Shanghai
 Size: 3:4
 ```
 
 ```text
-Use $michengai-city-travel-postcard to create an illustrated travel postcard.
+Use the `michengai-city-travel-postcard` skill to create an illustrated travel postcard.
 City: Shenzhen
 Size: 1080×1350
 ```
@@ -45,4 +45,4 @@ Size: 1080×1350
 
 - [`SKILL.md`](./SKILL.md): parameters, city-fact rules, visual constraints, and validation criteria.
 - [`references/prompt-template.md`](./references/prompt-template.md): city-specific generation prompt template.
-- [`agents/openai.yaml`](./agents/openai.yaml): Codex display metadata and default invocation.
+- [`agents/openai.yaml`](./agents/openai.yaml): optional OpenAI/Codex integration metadata and default prompt; the core skill works independently.

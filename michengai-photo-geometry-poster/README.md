@@ -28,13 +28,13 @@
 ## 使用
 
 ```text
-使用 $michengai-photo-geometry-poster 把这张照片处理成中文编辑海报。
+使用名为 `michengai-photo-geometry-poster` 的 Skill 把这张照片处理成中文编辑海报。
 ```
 
 指定文案：
 
 ```text
-使用 $michengai-photo-geometry-poster 处理这张照片。
+使用名为 `michengai-photo-geometry-poster` 的 Skill 处理这张照片。
 标题使用“湖畔金晖”，副标题使用“宫阁依山而立，在澄澈秋光中俯瞰湖面。”，年份使用 2026。
 ```
 
@@ -42,5 +42,5 @@
 
 - [`SKILL.md`](./SKILL.md)：执行流程、视觉约束和文案规则。
 - [`references/prompt-template.md`](./references/prompt-template.md)：自适应图片生成模板。
-- [`agents/openai.yaml`](./agents/openai.yaml)：Codex 展示名称和默认调用提示。
+- [`agents/openai.yaml`](./agents/openai.yaml)：可选的 OpenAI/Codex 集成元数据和默认提示；核心 Skill 可独立使用。
 - [`assets/demo/`](./assets/demo/)：实际生成效果演示。

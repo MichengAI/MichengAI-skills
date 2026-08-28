@@ -25,7 +25,7 @@ Creates a collectible contemporary travel art print for a city. Genuine landscap
 ## Usage
 
 ```text
-Use $michengai-city-reflection-travel-print to create a city travel art print.
+Use the `michengai-city-reflection-travel-print` skill to create a city travel art print.
 City: Hong Kong
 Country: China
 Size: 3:4
@@ -35,7 +35,7 @@ Slogan: A city of lights, framed by two shores
 With only the required input:
 
 ```text
-Use $michengai-city-reflection-travel-print to create a city travel art print.
+Use the `michengai-city-reflection-travel-print` skill to create a city travel art print.
 City: Lisbon
 ```
 
@@ -50,4 +50,4 @@ City: Lisbon
 
 - [`SKILL.md`](./SKILL.md): parameter rules, city selection logic, and visual constraints.
 - [`references/prompt-template.md`](./references/prompt-template.md): city-specific image-generation prompt template.
-- [`agents/openai.yaml`](./agents/openai.yaml): Codex display metadata and default invocation.
+- [`agents/openai.yaml`](./agents/openai.yaml): optional OpenAI/Codex integration metadata and default prompt; the core skill works independently.

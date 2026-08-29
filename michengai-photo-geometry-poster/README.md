@@ -6,9 +6,10 @@
 
 ## 演示
 
-| <strong>水巷清韵</strong><br><img src="./assets/demo/water-town.webp" alt="水巷清韵示例" height="480"> | <strong>云雾峰林</strong><br><img src="./assets/demo/misty-pillars.webp" alt="云雾峰林示例" height="480"> |
+| <strong>雪岭风暴</strong><br><img src="./assets/demo/snow-peak-storm.webp" alt="雪岭风暴示例" height="480"> | <strong>海面星光</strong><br><img src="./assets/demo/sparkling-water.webp" alt="海面星光示例" height="480"> |
 | :--- | :--- |
-| <strong>湖畔金晖</strong><br><img src="./assets/demo/lakeside-golden-light.webp" alt="湖畔金晖示例" height="480"> | <strong>林荫穿城</strong><br><img src="./assets/demo/city-through-trees.webp" alt="林荫穿城示例" height="480"> |
+| <strong>窗外雾谷</strong><br><img src="./assets/demo/misty-valley-window.webp" alt="窗外雾谷示例" height="480"> | <strong>荒野绿车</strong><br><img src="./assets/demo/wilderness-green-car.webp" alt="荒野绿车示例" height="480"> |
+| <strong>雪中神社</strong><br><img src="./assets/demo/snow-shrine.webp" alt="雪中神社示例" height="480"> | <strong>雾谷营地</strong><br><img src="./assets/demo/fog-valley-camp.webp" alt="雾谷营地示例" height="480"> |
 
 ## 视觉结构
 

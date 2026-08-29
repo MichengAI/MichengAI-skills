@@ -6,9 +6,10 @@ Transforms an uploaded reference photo into a premium portrait editorial poster.
 
 ## Demos
 
-| <strong>Canal Rhythms</strong><br><img src="./assets/demo/water-town.webp" alt="Canal Rhythms demo" height="480"> | <strong>Mountains in Mist</strong><br><img src="./assets/demo/misty-pillars.webp" alt="Mountains in Mist demo" height="480"> |
+| <strong>Storm over Snow Peaks</strong><br><img src="./assets/demo/snow-peak-storm.webp" alt="Storm over Snow Peaks demo" height="480"> | <strong>Starlight on Water</strong><br><img src="./assets/demo/sparkling-water.webp" alt="Starlight on Water demo" height="480"> |
 | :--- | :--- |
-| <strong>Lakeside Golden Light</strong><br><img src="./assets/demo/lakeside-golden-light.webp" alt="Lakeside Golden Light demo" height="480"> | <strong>City Through the Trees</strong><br><img src="./assets/demo/city-through-trees.webp" alt="City Through the Trees demo" height="480"> |
+| <strong>Mist Beyond the Window</strong><br><img src="./assets/demo/misty-valley-window.webp" alt="Mist Beyond the Window demo" height="480"> | <strong>Wilderness Green Car</strong><br><img src="./assets/demo/wilderness-green-car.webp" alt="Wilderness Green Car demo" height="480"> |
+| <strong>Shrine in Snow</strong><br><img src="./assets/demo/snow-shrine.webp" alt="Shrine in Snow demo" height="480"> | <strong>Fog Valley Camp</strong><br><img src="./assets/demo/fog-valley-camp.webp" alt="Fog Valley Camp demo" height="480"> |
 
 ## Visual structure
 

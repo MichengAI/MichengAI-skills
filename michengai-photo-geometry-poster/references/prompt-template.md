@@ -1,36 +1,63 @@
-# Editorial Photo Poster Prompt Template
+# 写实几何海报中文提示词模板
 
-生成前先根据参考照片填写方括号变量。删除所有方括号说明，不要把变量提示渲染进画面。
+生成前根据参考照片填写方括号变量并删除所有方括号说明。每张照片独立调用一次图片编辑工具；不要把变量说明渲染到成品中。
 
 ```text
-Recreate the uploaded reference image as a premium editorial poster while faithfully preserving its overall composition, framing, camera perspective, dominant colors, lighting direction, recognizable subjects, and visual hierarchy.
+用途：风格转译
+成品类型：高级写实照片 + 强几何块面转译的竖版编辑海报
+输入图片：仅使用当前上传的这张图片作为编辑目标和唯一参考；不要混用其他图片。
 
-Create a tall portrait-format poster on a warm ivory/off-white background with generous, carefully balanced margins. Divide the main visual into two aligned sections that depict the same scene from the same viewpoint.
+将参考照片重制为一张高级竖版编辑海报。画面采用暖象牙白/暖白纸张底色与克制留白，分为上部写实摄影、下部完整几何重绘，以及底部排版区。成品比例为 [目标比例]。
 
-UPPER SECTION — REALISTIC EDITORIAL PHOTOGRAPHY
-Reconstruct the reference as a highly realistic [time of day / lighting] photograph of [scene summary]. Preserve these visual anchors: [anchor 1], [anchor 2], [anchor 3], [anchor 4], [anchor 5]. Keep [main subject] in [position], retain the original horizon and vanishing point, and preserve the recognizable silhouettes of [distinctive objects]. Use realistic materials, natural shadows, detailed environmental textures, subtle atmospheric depth, cinematic but restrained color grading, and fine film grain. The result should feel photographed rather than illustrated, with no fantasy additions and no unrelated objects.
+## 上部 — 高度写实的编辑摄影
 
-LOWER SECTION — GEOMETRIC REINTERPRETATION
-Directly below, recreate exactly the same scene, composition, perspective, and visual hierarchy as an elegant geometric block illustration. Translate [subjects and environmental elements] into large clean rectangular and polygonal forms while preserving their positions, scale relationships, movement, and recognizable silhouettes. Use crisp edges, layered blocks, and subtle tonal variation. The style must feel intentionally designed for a contemporary art book, not like crude low-resolution pixel art. Use a sophisticated muted palette derived from the reference, favoring forest green, olive, teal, dusty blue, cream, ochre, terracotta, warm orange, muted pink, and pale sky blue where appropriate.
+上半部分必须保留原图的真实摄影感。准确保留 [主体]、[取景与相机视角]、[地平线或消失点]、[主色]、[光线方向]、[关键轮廓 1]、[关键轮廓 2]、[关键轮廓 3]、[关键空间关系]。
 
-TYPOGRAPHY SECTION
-At the bottom, create a refined editorial typography area using a clean modern sans-serif in dark navy/charcoal. Render exactly these three text elements and no other text:
-- Large title on the left: "[TITLE]"
-- Subtitle on the right: "[SUBTITLE]"
-- Year below the title on the left: "[YEAR]"
-Use careful spacing, alignment, and a clear typographic hierarchy. Do not repeat, paraphrase, abbreviate, or misspell any text.
+如果原图为横幅，为适应竖版可以进行自然裁切，或只做必要的克制扩展；不得裁掉、移动、替换或重绘主要主体。使用真实材质、自然阴影、可信环境纹理、适度空气透视、克制电影感调色与极细胶片颗粒。上半部分必须像真实现场照片，不得添加无关人物、建筑、物体、Logo、水印或奇幻元素。
 
-The final image must have a premium architecture, travel, or culture magazine aesthetic; a cohesive relationship between the realistic photograph and its geometric reinterpretation; polished high-resolution detail; and a balanced portrait-poster composition. Do not add extra text, logos, watermarks, borders, captions, signatures, or unrelated objects.
+## 下部 — 必须完整重绘的强几何块面插画
+
+紧接上半部分，下半部分必须以**完全相同的场景、视角、透视、地平线/消失关系、主体位置、轮廓和尺度关系**进行一次完整的几何重绘。它必须一眼可见是独立的几何插画，而不是原图的滤镜、磨皮、透明多边形叠加、轻度抽象、照片描摹或局部装饰。
+
+下半部分必须做到：
+
+- **完全移除摄影纹理、自然胶片颗粒、细碎真实细节和照片水波/草叶/岩石纹理。**
+- 全部画面由不透明、纯色、硬边的中大型矩形、梯形和多边形色块构成；单个色块通常占下半部分宽度的约 4–12%。
+- 使用清晰直线边界、可见的平面转折、层叠关系和块面对比；不得使用柔焦、空气刷渐变、透明覆盖或仍可辨认的照片质感。
+- 用简化的大块色面重建 [天空或云层]、[远景主体]、[中景地形/建筑/植被]、[前景] 与 [水面/道路/空间走向]；保持所有关键轮廓、方向、层次和空间关系与上半部分对应。
+- 使用从原图采样的 [主色 1]、[主色 2]、[主色 3]、[可选主色 4]，形成精致而可识别的当代建筑拼贴效果；不要把色彩处理得灰蒙、过于微弱或接近照片。
+
+下半部分的几何转译强度必须明显：即使缩小观看，也必须能在一眼之间与上方真实照片区分开来，同时仍能辨认它们是同一地点、同一镜头。
+
+## 底部排版区
+
+在暖象牙白留白区使用清晰、现代的中文无衬线字体，颜色为深海军蓝或炭灰。只逐字渲染以下三段文字，不得出现任何其他文字：
+
+- 左侧大标题："[标题]"
+- 右侧小副标题："[副标题]"
+- 标题下方年份："[年份]"
+
+标题使用 4–10 个汉字，副标题是一句自然、具体的短句，描述画面中真实存在的主体、空间关系、运动或光线。标题在左侧醒目且对齐稳定；副标题在右侧保持克制；年份位于标题下方。必须逐字准确，不得重复、改写、缩写、漏字或错字。
+
+## 成品标准与禁止项
+
+整体应像高级建筑、旅行或文化杂志海报：上半部真实克制，下半部块面鲜明，二者构图严格对应，纸张留白平衡，排版清楚。
+
+禁止：额外文字、Logo、水印、签名、边框、无关物体、卡通、3D 塑料质感、低清像素画、透明几何蒙版、照片纹理残留在下半部分、模糊的低对比几何化、过度 HDR、过饱和，以及上下场景不对应。
 ```
 
-## 文案语言
+## 中文文案示例
 
-标题和副标题同时支持中文与英文：
+仅用于理解字段格式，不要直接套用：
 
-- 用户指定语言时严格遵循。
-- 未指定语言时跟随当前对话语言；中文请求默认生成中文文案。
-- 中文标题：4–10 个汉字；英文标题：2–5 个单词。采用“核心场景 + 氛围或状态”的编辑标题逻辑。
-- 副标题：一句与标题同语言的自然短句，具体描述主体、空间关系、运动或光线。
-- 年份：当前年份，继续使用阿拉伯数字。
+```text
+标题：水巷清韵
+副标题：白墙黛瓦与红灯笼，沿着静静的河道铺展开来。
+年份：2026
+```
 
-中文排版使用清晰的现代中文无衬线字体，并要求逐字准确渲染。不要在中文请求中默认套用 `CITY IN MOTION` 等英文文案。
+```text
+标题：云雾峰林
+副标题：砂岩峰柱穿过流动的云雾，从苍翠森林间拔地而起。
+年份：2026
+```

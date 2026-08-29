@@ -9,6 +9,7 @@ A collection of MichengAI style-specific photo-editing and travel-visual skills.
 | Skill | What it does | Documentation | Skill ID |
 | --- | --- | --- | --- |
 | MichengAI Photo Geometry Poster | Turns a reference photo into a portrait poster combining realistic photography, an aligned geometric reinterpretation, and editorial typography | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `michengai-photo-geometry-poster` |
+| MichengAI Photo Sticker Sheet | Turns a reference photo into a collectible portrait sheet combining a realistic hero photo, a matching hand-painted postcard, and source-derived die-cut stickers | [中文](./michengai-photo-sticker-sheet/README.md) · [English](./michengai-photo-sticker-sheet/README.en.md) | `michengai-photo-sticker-sheet` |
 | MichengAI Rubber Stamp Field Notes | Turns each travel photo into a separate field-note poster combining an authentic photograph, aged paper, a small multi-color rubber stamp, and localized Chinese or English archival text | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | Creates a collectible city print with contemporary travel art, mirror-like reflections, and magazine typography; accepts city, size, country, and slogan inputs | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `michengai-city-reflection-travel-print` |
 | MichengAI City Travel Postcard | Creates a Japanese tourism-editorial illustrated postcard with paper collage and multilingual typography; accepts city and size inputs | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `michengai-city-travel-postcard` |
@@ -56,6 +57,10 @@ Use the `michengai-photo-geometry-poster` skill to turn my uploaded photo into a
 ```
 
 ```text
+Use the `michengai-photo-sticker-sheet` skill to turn my uploaded photo into a collectible sticker sheet.
+```
+
+```text
 Use the `michengai-rubber-stamp-field-notes` skill to process each uploaded travel photo as a separate field-note poster.
 ```
 
@@ -86,6 +91,7 @@ MichengAI-skills/
 │   ├── agents/              # optional platform adapters
 │   ├── assets/demo/
 │   └── references/
+├── michengai-photo-sticker-sheet/
 ├── michengai-rubber-stamp-field-notes/
 ├── michengai-city-reflection-travel-print/
 └── michengai-city-travel-postcard/

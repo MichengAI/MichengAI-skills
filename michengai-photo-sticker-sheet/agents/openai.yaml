@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI Photo Sticker Sheet"
+  short_description: "将参考照片重制为写实主图、手绘明信片与模切贴纸并置的收藏卡"
+  default_prompt: "Use $michengai-photo-sticker-sheet to turn my uploaded photo into a collectible sticker sheet."

@@ -1,4 +1,4 @@
 interface:
   display_name: "MichengAI 写实抽象旅行海报"
-  short_description: "将旅行照片转为上下分区的编辑式写实抽象海报"
-  default_prompt: "使用 $michengai-photo-illustration-travel-poster 将我上传的旅行照片制作成写实抽象旅行海报。"
+  short_description: "将旅行照片转为居中对分的写实抽象旅行海报"
+  default_prompt: "使用 $michengai-photo-illustration-travel-poster 将我上传的旅行照片制作成居中对分、自然分界的写实抽象旅行海报。"

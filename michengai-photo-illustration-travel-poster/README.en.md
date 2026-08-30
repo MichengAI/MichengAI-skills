@@ -2,7 +2,7 @@
 
 [中文](./README.md) · **English** · [Back to repository](../README.en.md)
 
-Creates a premium travel poster from a reference photograph, with soft film-like photography above and a restrained, negative-space-led symbolic translation of the same scene below. Only tiny location and date text appears near the corners.
+Creates a premium travel poster from a reference photograph, split evenly at the visual center: soft film-like photography above and a restrained, negative-space-led symbolic translation of the same scene below. The divider grows naturally from the source image; only tiny location and date text appears near the corners.
 
 ## Inputs
 
@@ -18,6 +18,7 @@ Creates a premium travel poster from a reference photograph, with soft film-like
 
 - Uses warm daylight, gentle haze, soft contrast, slightly faded film color, and subtle analog grain in the upper photograph.
 - Uses warm ivory paper, 1–3 scene propositions and 3–5 primary/secondary shape groups, muted earth colors, and deliberate negative space below—not a literal redraw or a miniature photo.
+- Uses an approximately 50/50 centered split. The divider may become a deckled tear, mist, ripple, snow/sand contour, or broken brush edge when supported by the image, but never a thick gap, color band, or rigid line.
 - Keeps both sections aligned through the same hierarchy, movement, density, directions, and visual rhythm, without tracing faces, textures, or individual source details.
 - Renders only two tiny text elements: location and date. No title, slogan, logo, or watermark.
 - Uses a Chinese prompt that treats the reference photo as the sole visual source; example bridges, boats, rivers, or mountains are never injected into an unrelated source image.
@@ -37,7 +38,7 @@ Size: 4:5
 
 ## Demos
 
-| <strong>River town</strong><br><img src="./assets/demo/river-town.webp" alt="River town photo-abstract travel poster demo" width="320"> | <strong>Snow-peak hikers</strong><br><img src="./assets/demo/snow-peak-hikers.webp" alt="Snow-peak hikers photo-abstract travel poster demo" width="320"> |
+| <strong>Plateau figures</strong><br><img src="./assets/demo/plateau-monastics.webp" alt="Plateau figures photo-abstract travel poster demo" width="320"> | <strong>Snow-peak hikers</strong><br><img src="./assets/demo/snow-peak-hikers.webp" alt="Snow-peak hikers photo-abstract travel poster demo" width="320"> |
 | :--- | :--- |
 | <strong>Mountain monastery</strong><br><img src="./assets/demo/mountain-monastery.webp" alt="Mountain monastery photo-illustration travel poster demo" width="320"> | <strong>Coastal sunset</strong><br><img src="./assets/demo/coastal-sunset.webp" alt="Coastal sunset photo-illustration travel poster demo" width="320"> |
 | <strong>Island flutist</strong><br><img src="./assets/demo/island-flutist.webp" alt="Island flutist photo-illustration travel poster demo" width="320"> | <strong>Flower-framed dragon blood trees</strong><br><img src="./assets/demo/flower-framed-dragon-blood-trees.webp" alt="Flower-framed dragon blood trees photo-illustration travel poster demo" width="320"> |

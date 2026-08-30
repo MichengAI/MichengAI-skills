@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI Photo Manga Sticker Fusion"
+  short_description: "将真实照片中的一个人或一组人转化为黑白漫画贴纸并保持环境写实"
+  default_prompt: "Use $michengai-photo-manga-sticker-fusion to redraw the intended person or group as monochrome manga stickers while keeping the real background photographic."

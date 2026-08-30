@@ -13,6 +13,7 @@
 | MichengAI Photo Geometry Poster | **写实几何海报** | 将参考照片转化为“写实摄影 + 同构图几何插画 + 编辑排版”的竖版海报 | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `michengai-photo-geometry-poster` |
 | MichengAI Photo Impasto Diorama Poster | **厚涂微景观海报** | 将每张照片分别制作成“真实编辑摄影 + 明亮留白中的 3D 厚涂油画微景观”的 3:4 对半海报 | [中文](./michengai-photo-impasto-diorama-poster/README.md) · [English](./michengai-photo-impasto-diorama-poster/README.en.md) | `michengai-photo-impasto-diorama-poster` |
 | MichengAI Photo Sticker Sheet | **照片贴纸收藏卡** | 将参考照片转化为“写实主图 + 同源手绘明信片 + 原图元素模切贴纸”的收藏级竖版贴纸板 | [中文](./michengai-photo-sticker-sheet/README.md) · [English](./michengai-photo-sticker-sheet/README.en.md) | `michengai-photo-sticker-sheet` |
+| MichengAI Photo Manga Sticker Fusion | **真人照片漫画贴纸融合** | 将一个人或多人群体转化为黑白手绘漫画贴纸，或在实景中自然加入漫画角色，同时严格保留摄影背景 | [中文](./michengai-photo-manga-sticker-fusion/README.md) · [English](./michengai-photo-manga-sticker-fusion/README.en.md) | `michengai-photo-manga-sticker-fusion` |
 | MichengAI Rubber Stamp Field Notes | **橡皮章田野笔记** | 将每张旅行照片分别制作成“真实照片 + 旧纸 + 小型多色橡皮章 + 中英文档案文字”的田野笔记 | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | **城市倒影旅行画** | 根据必填城市生成“当代旅行艺术 + 镜面倒影 + 杂志排版”的收藏级城市印刷品，支持尺寸、国家与标语 | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `michengai-city-reflection-travel-print` |
 | MichengAI City Travel Postcard | **城市插画明信片** | 根据城市生成“日式旅游杂志插画 + 纸张拼贴 + 多语编辑排版”的旅行明信片，支持尺寸 | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `michengai-city-travel-postcard` |
@@ -65,6 +66,10 @@ npx skills add MichengAI/MichengAI-skills \
 ```
 
 ```text
+使用 `michengai-photo-manga-sticker-fusion` 把照片里的主角转化为黑白漫画贴纸，背景完全保持真实。
+```
+
+```text
 使用 `michengai-photo-impasto-diorama-poster` 分别处理我上传的照片，每张单独输出一张 3:4 厚涂微景观海报。
 ```
 
@@ -104,6 +109,7 @@ MichengAI-skills/
 │   ├── assets/demo/
 │   └── references/
 ├── michengai-photo-sticker-sheet/
+├── michengai-photo-manga-sticker-fusion/
 ├── michengai-photo-impasto-diorama-poster/
 ├── michengai-rubber-stamp-field-notes/
 ├── michengai-city-reflection-travel-print/

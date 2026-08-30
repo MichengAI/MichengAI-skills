@@ -15,7 +15,7 @@ Display names retain each Skill's core purpose for clarity and everyday referenc
 | MichengAI Rubber Stamp Field Notes | **Rubber Stamp Field Notes** | Turns each travel photo into a separate field-note poster combining an authentic photograph, aged paper, a small multi-color rubber stamp, and localized Chinese or English archival text | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | **City Reflection Travel Art** | Creates a collectible city print with contemporary travel art, mirror-like reflections, and magazine typography; accepts city, size, country, and slogan inputs | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `michengai-city-reflection-travel-print` |
 | MichengAI City Travel Postcard | **Illustrated City Postcard** | Creates a Japanese tourism-editorial illustrated postcard with paper collage and multilingual typography; accepts city and size inputs | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `michengai-city-travel-postcard` |
-| MichengAI Photo Illustration Travel Poster | **Photo-Illustration Travel Poster** | Creates from a scene or reference photo a premium editorial poster with nostalgic travel photography above, an aligned minimalist hand-drawn interpretation below, and tiny corner text | [中文](./michengai-photo-illustration-travel-poster/README.md) · [English](./michengai-photo-illustration-travel-poster/README.en.md) | `michengai-photo-illustration-travel-poster` |
+| MichengAI Photo Abstract Travel Poster | **Photo-Abstract Travel Poster** | Turns a reference photo into a premium editorial poster with nostalgic travel photography above, a negative-space-led symbolic translation below, and tiny corner text; its reusable generation prompt is Chinese | [中文](./michengai-photo-illustration-travel-poster/README.md) · [English](./michengai-photo-illustration-travel-poster/README.en.md) | `michengai-photo-illustration-travel-poster` |
 
 ## Installation
 
@@ -76,7 +76,7 @@ Use the `michengai-city-travel-postcard` skill to create an illustrated travel p
 ```
 
 ```text
-Use the `michengai-photo-illustration-travel-poster` skill to create a photo-and-illustration travel poster. Scene: a historic riverside town; Size: 3:4.
+Use the `michengai-photo-illustration-travel-poster` skill to turn my uploaded travel photo into a photo-and-illustration travel poster. Size: 3:4.
 ```
 
 Codex uses its `$skill-id` convention; other Agent clients use their own Skills invocation syntax.
@@ -105,4 +105,4 @@ MichengAI-skills/
 └── michengai-photo-illustration-travel-poster/
 ```
 
-See each child skill's README for detailed behavior, prompt examples, and demos.
+See each child skill's README for detailed behavior, prompt examples, and demos.\n

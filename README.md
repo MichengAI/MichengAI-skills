@@ -15,7 +15,7 @@
 | MichengAI Rubber Stamp Field Notes | **橡皮章田野笔记** | 将每张旅行照片分别制作成“真实照片 + 旧纸 + 小型多色橡皮章 + 中英文档案文字”的田野笔记 | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | **城市倒影旅行画** | 根据必填城市生成“当代旅行艺术 + 镜面倒影 + 杂志排版”的收藏级城市印刷品，支持尺寸、国家与标语 | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `michengai-city-reflection-travel-print` |
 | MichengAI City Travel Postcard | **城市插画明信片** | 根据城市生成“日式旅游杂志插画 + 纸张拼贴 + 多语编辑排版”的旅行明信片，支持尺寸 | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `michengai-city-travel-postcard` |
-| MichengAI Photo Illustration Travel Poster | **写实手绘旅行海报** | 生成或基于参考照片制作“上部复古写实旅行摄影 + 下部同场景极简手绘 + 角落微型文字”的高级编辑海报 | [中文](./michengai-photo-illustration-travel-poster/README.md) · [English](./michengai-photo-illustration-travel-poster/README.en.md) | `michengai-photo-illustration-travel-poster` |
+| MichengAI Photo Abstract Travel Poster | **写实抽象旅行海报** | 基于参考照片制作“上部复古写实旅行摄影 + 下部中式留白意象转译 + 角落微型文字”的高级编辑海报 | [中文](./michengai-photo-illustration-travel-poster/README.md) · [English](./michengai-photo-illustration-travel-poster/README.en.md) | `michengai-photo-illustration-travel-poster` |
 
 ## 安装
 
@@ -76,7 +76,7 @@ npx skills add MichengAI/MichengAI-skills \
 ```
 
 ```text
-使用 `michengai-photo-illustration-travel-poster` 生成写实手绘旅行海报。场景：历史古镇河岸；尺寸：3:4。
+使用 `michengai-photo-illustration-travel-poster` 处理我上传的旅行照片，生成写实抽象旅行海报；尺寸：3:4。
 ```
 
 在 Codex 中可使用其 `$skill-id` 语法；其他 Agent 则使用各自的 Skills 调用方式。
@@ -105,4 +105,4 @@ MichengAI-skills/
 └── michengai-photo-illustration-travel-poster/
 ```
 
-各子 Skill 的详细能力、提示示例和演示图请查看对应目录中的 README。
+各子 Skill 的详细能力、提示示例和演示图请查看对应目录中的 README。\n

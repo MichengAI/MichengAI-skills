@@ -11,6 +11,7 @@ Display names retain each Skill's core purpose for clarity and everyday referenc
 | Skill | Display name | What it does | Documentation | Skill ID |
 | --- | --- | --- | --- | --- |
 | MichengAI Photo Geometry Poster | **Realistic Geometry Poster** | Turns a reference photo into a portrait poster combining realistic photography, an aligned geometric reinterpretation, and editorial typography | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `michengai-photo-geometry-poster` |
+| MichengAI Photo Impasto Diorama Poster | **Impasto Diorama Poster** | Turns each photo into a separate 3:4 poster combining authentic editorial photography with a bright, negative-space-led 3D impasto-oil miniature scene | [中文](./michengai-photo-impasto-diorama-poster/README.md) · [English](./michengai-photo-impasto-diorama-poster/README.en.md) | `michengai-photo-impasto-diorama-poster` |
 | MichengAI Photo Sticker Sheet | **Photo Sticker Card** | Turns a reference photo into a collectible portrait sheet combining a realistic hero photo, a matching hand-painted postcard, and source-derived die-cut stickers | [中文](./michengai-photo-sticker-sheet/README.md) · [English](./michengai-photo-sticker-sheet/README.en.md) | `michengai-photo-sticker-sheet` |
 | MichengAI Rubber Stamp Field Notes | **Rubber Stamp Field Notes** | Turns each travel photo into a separate field-note poster combining an authentic photograph, aged paper, a small multi-color rubber stamp, and localized Chinese or English archival text | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | **City Reflection Travel Art** | Creates a collectible city print with contemporary travel art, mirror-like reflections, and magazine typography; accepts city, size, country, and slogan inputs | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `michengai-city-reflection-travel-print` |
@@ -64,6 +65,10 @@ Use the `michengai-photo-sticker-sheet` skill to turn my uploaded photo into a c
 ```
 
 ```text
+Use the `michengai-photo-impasto-diorama-poster` skill to process each uploaded photo as a separate 3:4 impasto-diorama poster.
+```
+
+```text
 Use the `michengai-rubber-stamp-field-notes` skill to process each uploaded travel photo as a separate field-note poster.
 ```
 
@@ -99,6 +104,7 @@ MichengAI-skills/
 │   ├── assets/demo/
 │   └── references/
 ├── michengai-photo-sticker-sheet/
+├── michengai-photo-impasto-diorama-poster/
 ├── michengai-rubber-stamp-field-notes/
 ├── michengai-city-reflection-travel-print/
 ├── michengai-city-travel-postcard/

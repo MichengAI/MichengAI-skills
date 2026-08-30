@@ -11,6 +11,7 @@
 | Skill | 展示名 | 功能 | 文档 | Skill ID |
 | --- | --- | --- | --- | --- |
 | MichengAI Photo Geometry Poster | **写实几何海报** | 将参考照片转化为“写实摄影 + 同构图几何插画 + 编辑排版”的竖版海报 | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `michengai-photo-geometry-poster` |
+| MichengAI Photo Impasto Diorama Poster | **厚涂微景观海报** | 将每张照片分别制作成“真实编辑摄影 + 明亮留白中的 3D 厚涂油画微景观”的 3:4 对半海报 | [中文](./michengai-photo-impasto-diorama-poster/README.md) · [English](./michengai-photo-impasto-diorama-poster/README.en.md) | `michengai-photo-impasto-diorama-poster` |
 | MichengAI Photo Sticker Sheet | **照片贴纸收藏卡** | 将参考照片转化为“写实主图 + 同源手绘明信片 + 原图元素模切贴纸”的收藏级竖版贴纸板 | [中文](./michengai-photo-sticker-sheet/README.md) · [English](./michengai-photo-sticker-sheet/README.en.md) | `michengai-photo-sticker-sheet` |
 | MichengAI Rubber Stamp Field Notes | **橡皮章田野笔记** | 将每张旅行照片分别制作成“真实照片 + 旧纸 + 小型多色橡皮章 + 中英文档案文字”的田野笔记 | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | **城市倒影旅行画** | 根据必填城市生成“当代旅行艺术 + 镜面倒影 + 杂志排版”的收藏级城市印刷品，支持尺寸、国家与标语 | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `michengai-city-reflection-travel-print` |
@@ -64,6 +65,10 @@ npx skills add MichengAI/MichengAI-skills \
 ```
 
 ```text
+使用 `michengai-photo-impasto-diorama-poster` 分别处理我上传的照片，每张单独输出一张 3:4 厚涂微景观海报。
+```
+
+```text
 使用 `michengai-rubber-stamp-field-notes` 分别处理我上传的旅行照片，每张照片单独输出。
 ```
 
@@ -99,6 +104,7 @@ MichengAI-skills/
 │   ├── assets/demo/
 │   └── references/
 ├── michengai-photo-sticker-sheet/
+├── michengai-photo-impasto-diorama-poster/
 ├── michengai-rubber-stamp-field-notes/
 ├── michengai-city-reflection-travel-print/
 ├── michengai-city-travel-postcard/

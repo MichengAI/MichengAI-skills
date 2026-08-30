@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI 厚涂微景观海报"
+  short_description: "将每张照片转为写实摄影与厚涂微景观对半呈现的治愈海报"
+  default_prompt: "使用 $michengai-photo-impasto-diorama-poster 将我上传的每张照片分别制作成一张 3:4 厚涂微景观海报。"

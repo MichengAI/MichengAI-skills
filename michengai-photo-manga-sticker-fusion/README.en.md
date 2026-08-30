@@ -40,9 +40,9 @@ Use `michengai-photo-manga-sticker-fusion` to add a black-and-white manga girl i
 
 | Snow-mountain hiker · Single-person redraw | Five-person indoor group · Group redraw |
 | --- | --- |
-| ![Snow-mountain hiker redraw](./assets/demo/snow-mountain-hiker.png) | ![Five-person group redraw](./assets/demo/five-person-family-group.png) |
+| ![Snow-mountain hiker redraw](./assets/demo/snow-mountain-hiker.webp) | ![Five-person group redraw](./assets/demo/five-person-family-group.webp) |
 | **Flute player beneath dragon blood trees · Single-person redraw** | **Rainy balcony · Character insertion** |
-| ![Flute player redraw](./assets/demo/dragon-blood-tree-flutist.png) | ![Rainy balcony character insertion](./assets/demo/rainy-balcony-insertion.png) |
+| ![Flute player redraw](./assets/demo/dragon-blood-tree-flutist.webp) | ![Rainy balcony character insertion](./assets/demo/rainy-balcony-insertion.webp) |
 
 ## Files
 

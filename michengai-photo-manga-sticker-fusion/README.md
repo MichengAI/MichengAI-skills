@@ -40,9 +40,9 @@
 
 | 雪山徒步者 · 单人转绘 | 室内五人 · 群体转绘 |
 | --- | --- |
-| ![雪山徒步者单人转绘](./assets/demo/snow-mountain-hiker.png) | ![室内五人群体转绘](./assets/demo/five-person-family-group.png) |
+| ![雪山徒步者单人转绘](./assets/demo/snow-mountain-hiker.webp) | ![室内五人群体转绘](./assets/demo/five-person-family-group.webp) |
 | **树下吹笛人 · 单人转绘** | **雨雾阳台 · 角色置入** |
-| ![树下吹笛人单人转绘](./assets/demo/dragon-blood-tree-flutist.png) | ![雨雾阳台角色置入](./assets/demo/rainy-balcony-insertion.png) |
+| ![树下吹笛人单人转绘](./assets/demo/dragon-blood-tree-flutist.webp) | ![雨雾阳台角色置入](./assets/demo/rainy-balcony-insertion.webp) |
 
 ## 文件
 

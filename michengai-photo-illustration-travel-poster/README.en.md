@@ -37,7 +37,7 @@ Size: 4:5
 
 ## Demos
 
-| <strong>Plateau figures</strong><br><img src="./assets/demo/plateau-monastics.webp" alt="Plateau figures photo-illustration travel poster demo" width="320"> | <strong>Snow-peak hikers</strong><br><img src="./assets/demo/snow-peak-hikers.webp" alt="Snow-peak hikers photo-illustration travel poster demo" width="320"> |
+| <strong>River town</strong><br><img src="./assets/demo/river-town.webp" alt="River town photo-abstract travel poster demo" width="320"> | <strong>Snow-peak hikers</strong><br><img src="./assets/demo/snow-peak-hikers.webp" alt="Snow-peak hikers photo-abstract travel poster demo" width="320"> |
 | :--- | :--- |
 | <strong>Mountain monastery</strong><br><img src="./assets/demo/mountain-monastery.webp" alt="Mountain monastery photo-illustration travel poster demo" width="320"> | <strong>Coastal sunset</strong><br><img src="./assets/demo/coastal-sunset.webp" alt="Coastal sunset photo-illustration travel poster demo" width="320"> |
 | <strong>Island flutist</strong><br><img src="./assets/demo/island-flutist.webp" alt="Island flutist photo-illustration travel poster demo" width="320"> | <strong>Flower-framed dragon blood trees</strong><br><img src="./assets/demo/flower-framed-dragon-blood-trees.webp" alt="Flower-framed dragon blood trees photo-illustration travel poster demo" width="320"> |

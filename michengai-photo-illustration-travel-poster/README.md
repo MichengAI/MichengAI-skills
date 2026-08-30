@@ -37,7 +37,7 @@
 
 ## 演示
 
-| <strong>高原人物</strong><br><img src="./assets/demo/plateau-monastics.webp" alt="高原人物写实手绘旅行海报演示" width="320"> | <strong>雪峰徒步</strong><br><img src="./assets/demo/snow-peak-hikers.webp" alt="雪峰徒步写实手绘旅行海报演示" width="320"> |
+| <strong>水乡桥舟</strong><br><img src="./assets/demo/river-town.webp" alt="水乡桥舟写实抽象旅行海报演示" width="320"> | <strong>雪峰徒步</strong><br><img src="./assets/demo/snow-peak-hikers.webp" alt="雪峰徒步写实抽象旅行海报演示" width="320"> |
 | :--- | :--- |
 | <strong>山谷寺院</strong><br><img src="./assets/demo/mountain-monastery.webp" alt="山谷寺院写实手绘旅行海报演示" width="320"> | <strong>海岸落日</strong><br><img src="./assets/demo/coastal-sunset.webp" alt="海岸落日写实手绘旅行海报演示" width="320"> |
 | <strong>岛屿乐声</strong><br><img src="./assets/demo/island-flutist.webp" alt="岛屿乐声写实手绘旅行海报演示" width="320"> | <strong>旷野花影</strong><br><img src="./assets/demo/flower-framed-dragon-blood-trees.webp" alt="旷野花影写实手绘旅行海报演示" width="320"> |

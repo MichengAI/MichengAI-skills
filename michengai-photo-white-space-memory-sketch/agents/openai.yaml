@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI White-Space Memory Sketch"
+  short_description: "把上传照片重绘为开放画域与随图配色题字的中式纸本记忆画页"
+  default_prompt: "使用 $michengai-photo-white-space-memory-sketch，把我上传的照片重绘成中式纸本记忆画页：只保留少量记忆锚点，以线条、色块和水洗重新构形；同时限制着色占比与整组画幅外包围，保留宽阔纸边、克制越界和随图配色的中英文页边注。"

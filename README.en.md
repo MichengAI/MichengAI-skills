@@ -14,6 +14,7 @@ Display names retain each Skill's core purpose for clarity and everyday referenc
 | MichengAI Photo Impasto Diorama Poster | **Impasto Diorama Poster** | Turns each photo into a separate 3:4 poster combining authentic editorial photography with a bright, negative-space-led 3D impasto-oil miniature scene | [中文](./michengai-photo-impasto-diorama-poster/README.md) · [English](./michengai-photo-impasto-diorama-poster/README.en.md) | `michengai-photo-impasto-diorama-poster` |
 | MichengAI Photo Sticker Sheet | **Photo Sticker Card** | Turns a reference photo into a collectible portrait sheet combining a realistic hero photo, a matching hand-painted postcard, and source-derived die-cut stickers | [中文](./michengai-photo-sticker-sheet/README.md) · [English](./michengai-photo-sticker-sheet/README.en.md) | `michengai-photo-sticker-sheet` |
 | MichengAI Photo Manga Sticker Fusion | **Photo-Manga Sticker Fusion** | Turns one person or a group into monochrome hand-drawn manga stickers, or inserts one naturally, while strictly preserving the photographic background | [中文](./michengai-photo-manga-sticker-fusion/README.md) · [English](./michengai-photo-manga-sticker-fusion/README.en.md) | `michengai-photo-manga-sticker-fusion` |
+| MichengAI White-Space Memory Sketch | **Chinese White-Space Memory Page** | Redraws a photo as a Chinese paper-led memory page with an open image field, controlled boundary breakouts, and palette-adaptive marginalia | [中文](./michengai-photo-white-space-memory-sketch/README.md) · [English](./michengai-photo-white-space-memory-sketch/README.en.md) | `michengai-photo-white-space-memory-sketch` |
 | MichengAI Rubber Stamp Field Notes | **Rubber Stamp Field Notes** | Turns each travel photo into a separate field-note poster combining an authentic photograph, aged paper, a small multi-color rubber stamp, and localized Chinese or English archival text | [中文](./michengai-rubber-stamp-field-notes/README.md) · [English](./michengai-rubber-stamp-field-notes/README.en.md) | `michengai-rubber-stamp-field-notes` |
 | MichengAI City Reflection Travel Print | **City Reflection Travel Art** | Creates a collectible city print with contemporary travel art, mirror-like reflections, and magazine typography; accepts city, size, country, and slogan inputs | [中文](./michengai-city-reflection-travel-print/README.md) · [English](./michengai-city-reflection-travel-print/README.en.md) | `michengai-city-reflection-travel-print` |
 | MichengAI City Travel Postcard | **Illustrated City Postcard** | Creates a Japanese tourism-editorial illustrated postcard with paper collage and multilingual typography; accepts city and size inputs | [中文](./michengai-city-travel-postcard/README.md) · [English](./michengai-city-travel-postcard/README.en.md) | `michengai-city-travel-postcard` |
@@ -70,6 +71,10 @@ Use the `michengai-photo-manga-sticker-fusion` skill to turn the main person int
 ```
 
 ```text
+Use `michengai-photo-white-space-memory-sketch` to redraw this photo as a Chinese paper memory page with an open image field, controlled boundary breakouts, and palette-adaptive Chinese and English marginalia.
+```
+
+```text
 Use the `michengai-photo-impasto-diorama-poster` skill to process each uploaded photo as a separate 3:4 impasto-diorama poster.
 ```
 
@@ -110,6 +115,7 @@ MichengAI-skills/
 │   └── references/
 ├── michengai-photo-sticker-sheet/
 ├── michengai-photo-manga-sticker-fusion/
+├── michengai-photo-white-space-memory-sketch/
 ├── michengai-photo-impasto-diorama-poster/
 ├── michengai-rubber-stamp-field-notes/
 ├── michengai-city-reflection-travel-print/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI 照片旅行票根拼贴"
+  short_description: "将旅行照片制作成带结构化票根与邮戳的上下对照纪念拼贴"
+  default_prompt: "使用 $michengai-photo-travel-ticket-collage 将我上传的旅行照片制作成严格上下对半、带结构化票根与圆形旅行邮戳的 3:4 对照拼贴。"

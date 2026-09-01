@@ -12,6 +12,9 @@
 | --- | --- | --- | --- | --- |
 | MichengAI Photo Geometry Poster | **写实几何海报** | 将参考照片转化为“写实摄影 + 同构图几何插画 + 编辑排版”的竖版海报 | [中文](./michengai-photo-geometry-poster/README.md) · [English](./michengai-photo-geometry-poster/README.en.md) | `michengai-photo-geometry-poster` |
 | MichengAI Photo Impasto Diorama Poster | **厚涂微景观海报** | 将每张照片分别制作成“真实编辑摄影 + 明亮留白中的 3D 厚涂油画微景观”的 3:4 对半海报 | [中文](./michengai-photo-impasto-diorama-poster/README.md) · [English](./michengai-photo-impasto-diorama-poster/README.en.md) | `michengai-photo-impasto-diorama-poster` |
+| MichengAI Photo Isometric Impasto Atlas | **轴测厚涂场景图鉴** | 将每张照片制作成“可信现场摄影 + 同源轴测微缩场景 + 不规则颜料地形”的 3:4 等分图鉴海报 | [中文](./michengai-photo-isometric-impasto-atlas/README.md) · [English](./michengai-photo-isometric-impasto-atlas/README.en.md) | `michengai-photo-isometric-impasto-atlas` |
+| MichengAI Photo Felt Relief Travel Archive | **羊毛毡浅浮雕旅行档案** | 将每张照片制作成“完整原始摄影 + 同视角手工毛毡与针毡羊毛浅浮雕”的 3:4 旅行档案海报 | [中文](./michengai-photo-felt-relief-travel-archive/README.md) · [English](./michengai-photo-felt-relief-travel-archive/README.en.md) | `michengai-photo-felt-relief-travel-archive` |
+| MichengAI Photo Travel Ticket Collage | **照片旅行票根拼贴** | 将每张照片制作成“半幅真实原照 + 同源插画票卡 + 结构化票根与旅行邮戳”的 3:4 对照拼贴 | [中文](./michengai-photo-travel-ticket-collage/README.md) · [English](./michengai-photo-travel-ticket-collage/README.en.md) | `michengai-photo-travel-ticket-collage` |
 | MichengAI Photo Sticker Sheet | **照片贴纸收藏卡** | 将参考照片转化为“写实主图 + 同源手绘明信片 + 原图元素模切贴纸”的收藏级竖版贴纸板 | [中文](./michengai-photo-sticker-sheet/README.md) · [English](./michengai-photo-sticker-sheet/README.en.md) | `michengai-photo-sticker-sheet` |
 | MichengAI Photo Manga Sticker Fusion | **真人照片漫画贴纸融合** | 将一个人或多人群体转化为黑白手绘漫画贴纸，或在实景中自然加入漫画角色，同时严格保留摄影背景 | [中文](./michengai-photo-manga-sticker-fusion/README.md) · [English](./michengai-photo-manga-sticker-fusion/README.en.md) | `michengai-photo-manga-sticker-fusion` |
 | MichengAI White-Space Memory Sketch | **中式留白记忆画页** | 将真实照片重绘为开放画域、少量元素越界、文字随图配色的中式纸本记忆画页 | [中文](./michengai-photo-white-space-memory-sketch/README.md) · [English](./michengai-photo-white-space-memory-sketch/README.en.md) | `michengai-photo-white-space-memory-sketch` |
@@ -79,6 +82,18 @@ npx skills add MichengAI/MichengAI-skills \
 ```
 
 ```text
+使用 `michengai-photo-isometric-impasto-atlas` 分别处理我上传的照片，每张单独输出一张 3:4 轴测厚涂场景图鉴。
+```
+
+```text
+使用 `michengai-photo-felt-relief-travel-archive` 将我上传的每张照片分别制作成一张 3:4 羊毛毡浅浮雕旅行档案海报。
+```
+
+```text
+使用 `michengai-photo-travel-ticket-collage` 把我上传的旅行照片制作成上部原照、下部旅行票根纪念卡的 3:4 对照拼贴。
+```
+
+```text
 使用 `michengai-rubber-stamp-field-notes` 分别处理我上传的旅行照片，每张照片单独输出。
 ```
 
@@ -117,6 +132,9 @@ MichengAI-skills/
 ├── michengai-photo-manga-sticker-fusion/
 ├── michengai-photo-white-space-memory-sketch/
 ├── michengai-photo-impasto-diorama-poster/
+├── michengai-photo-isometric-impasto-atlas/
+├── michengai-photo-felt-relief-travel-archive/
+├── michengai-photo-travel-ticket-collage/
 ├── michengai-rubber-stamp-field-notes/
 ├── michengai-city-reflection-travel-print/
 ├── michengai-city-travel-postcard/

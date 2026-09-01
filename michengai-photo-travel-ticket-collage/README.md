@@ -23,6 +23,14 @@
 - 票根底部加入场景自适应的圆形旅行纪念邮戳；主票使用默认系列标题、副标题和 5 个来源配色圆点。
 - 无法确认真实地点时使用主题表达；编号与字段仅为概念化纪念设计，不冒充真实交通凭证，也不会把示例地标强加到其他照片。
 
+## Demo
+
+|  |  |
+| --- | --- |
+| <strong>书房竹园</strong><br><img src="./assets/demo/study-bamboo-garden.webp" alt="书房竹园旅行票根拼贴演示" width="320"> | <strong>绿荫古建</strong><br><img src="./assets/demo/shaded-traditional-house.webp" alt="绿荫古建旅行票根拼贴演示" width="320"> |
+| <strong>杉林参道</strong><br><img src="./assets/demo/cedar-forest-path.webp" alt="杉林参道旅行票根拼贴演示" width="320"> | <strong>河畔古镇屋顶</strong><br><img src="./assets/demo/riverside-old-town-rooftops.webp" alt="河畔古镇屋顶旅行票根拼贴演示" width="320"> |
+| <strong>月夜雪山</strong><br><img src="./assets/demo/moonlit-snow-valley.webp" alt="月夜雪山旅行票根拼贴演示" width="320"> | <strong>高山湖泊</strong><br><img src="./assets/demo/alpine-lake-hikers.webp" alt="高山湖泊旅行票根拼贴演示" width="320"> |
+
 ## 使用
 
 ```text
@@ -39,3 +47,4 @@
 - [`SKILL.md`](./SKILL.md)：输入、构图、票根结构、插画风格、文字与验收规则。
 - [`references/prompt-template.md`](./references/prompt-template.md)：针对单张参考照片填写的中文图像编辑提示词模板。
 - [`agents/openai.yaml`](./agents/openai.yaml)：可选的 OpenAI/Codex 展示元数据与默认提示。
+- [`assets/demo/`](./assets/demo/)：6 张 `1024×1536`、WebP 压缩格式的成品演示图。

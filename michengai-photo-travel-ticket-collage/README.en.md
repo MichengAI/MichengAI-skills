@@ -23,6 +23,14 @@ Turns one reference photo into a portrait comparison collage: a fixed half-heigh
 - Adds a scene-derived circular travel postmark at the bottom of the stub; the main ticket uses the default series title, subtitle, and five source-color dots.
 - Uses thematic wording when a real place cannot be verified. Metadata and numbers remain conceptual keepsake design rather than usable transport credentials.
 
+## Demos
+
+|  |  |
+| --- | --- |
+| <strong>Study and bamboo garden</strong><br><img src="./assets/demo/study-bamboo-garden.webp" alt="Study and bamboo garden travel-ticket collage demo" width="320"> | <strong>Traditional house in shade</strong><br><img src="./assets/demo/shaded-traditional-house.webp" alt="Shaded traditional house travel-ticket collage demo" width="320"> |
+| <strong>Cedar forest path</strong><br><img src="./assets/demo/cedar-forest-path.webp" alt="Cedar forest path travel-ticket collage demo" width="320"> | <strong>Riverside old-town rooftops</strong><br><img src="./assets/demo/riverside-old-town-rooftops.webp" alt="Riverside old-town rooftops travel-ticket collage demo" width="320"> |
+| <strong>Moonlit snow valley</strong><br><img src="./assets/demo/moonlit-snow-valley.webp" alt="Moonlit snow valley travel-ticket collage demo" width="320"> | <strong>Alpine lake hikers</strong><br><img src="./assets/demo/alpine-lake-hikers.webp" alt="Alpine lake hikers travel-ticket collage demo" width="320"> |
+
 ## Usage
 
 ```text
@@ -39,3 +47,4 @@ Ticket metadata: DESTINATION—HIGH COUNTRY; SEASON—GOLDEN HOUR; JOURNEY—ALP
 - [`SKILL.md`](./SKILL.md): input, composition, ticket-stub, illustration, typography, and validation rules.
 - [`references/prompt-template.md`](./references/prompt-template.md): Chinese image-editing prompt template filled for one source photo at a time.
 - [`agents/openai.yaml`](./agents/openai.yaml): optional OpenAI/Codex display metadata and default prompt.
+- [`assets/demo/`](./assets/demo/): six `1024×1536` finished demos compressed as WebP.

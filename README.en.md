@@ -14,6 +14,7 @@ Display names retain each Skill's core purpose for clarity and everyday referenc
 | MichengAI Photo Impasto Diorama Poster | **Impasto Diorama Poster** | Turns each photo into a separate 3:4 poster combining authentic editorial photography with a bright, negative-space-led 3D impasto-oil miniature scene | [中文](./michengai-photo-impasto-diorama-poster/README.md) · [English](./michengai-photo-impasto-diorama-poster/README.en.md) | `michengai-photo-impasto-diorama-poster` |
 | MichengAI Photo Isometric Impasto Atlas | **Isometric Impasto Scene Atlas** | Turns each photo into a 3:4 equal-split atlas poster combining credible on-site photography, a source-matched axonometric miniature, and irregular painted terrain | [中文](./michengai-photo-isometric-impasto-atlas/README.md) · [English](./michengai-photo-isometric-impasto-atlas/README.en.md) | `michengai-photo-isometric-impasto-atlas` |
 | MichengAI Photo Felt Relief Travel Archive | **Felt Relief Travel Archive** | Turns each photo into a 3:4 travel archive poster pairing the intact original with an aligned handmade cut-felt and needle-felted wool bas-relief | [中文](./michengai-photo-felt-relief-travel-archive/README.md) · [English](./michengai-photo-felt-relief-travel-archive/README.en.md) | `michengai-photo-felt-relief-travel-archive` |
+| MichengAI Photo Enamel Travel Badge | **Enamel Travel Souvenir Badge** | Extracts the most recognizable subject from each photo and pairs the original with a physical gold-edged enamel badge displayed on dark coarse burlap in a 3:4 composition | [中文](./michengai-photo-enamel-travel-badge/README.md) · [English](./michengai-photo-enamel-travel-badge/README.en.md) | `michengai-photo-enamel-travel-badge` |
 | MichengAI Photo Travel Ticket Collage | **Photo Travel Ticket Collage** | Turns each photo into a 3:4 half-photo, half-ticket collage with a source-derived illustration, structured stub, and circular travel postmark | [中文](./michengai-photo-travel-ticket-collage/README.md) · [English](./michengai-photo-travel-ticket-collage/README.en.md) | `michengai-photo-travel-ticket-collage` |
 | MichengAI Photo Sticker Sheet | **Photo Sticker Card** | Turns a reference photo into a collectible portrait sheet combining a realistic hero photo, a matching hand-painted postcard, and source-derived die-cut stickers | [中文](./michengai-photo-sticker-sheet/README.md) · [English](./michengai-photo-sticker-sheet/README.en.md) | `michengai-photo-sticker-sheet` |
 | MichengAI Photo Manga Sticker Fusion | **Photo-Manga Sticker Fusion** | Turns one person or a group into monochrome hand-drawn manga stickers, or inserts one naturally, while strictly preserving the photographic background | [中文](./michengai-photo-manga-sticker-fusion/README.md) · [English](./michengai-photo-manga-sticker-fusion/README.en.md) | `michengai-photo-manga-sticker-fusion` |
@@ -90,6 +91,10 @@ Use `michengai-photo-felt-relief-travel-archive` to turn each uploaded photo int
 ```
 
 ```text
+Use `michengai-photo-enamel-travel-badge` to turn each uploaded photo into a separate 3:4 enamel travel badge composition.
+```
+
+```text
 Use `michengai-photo-travel-ticket-collage` to turn my uploaded travel photo into a 3:4 comparison collage with the original photo above and an illustrated travel ticket below.
 ```
 
@@ -134,6 +139,7 @@ MichengAI-skills/
 ├── michengai-photo-impasto-diorama-poster/
 ├── michengai-photo-isometric-impasto-atlas/
 ├── michengai-photo-felt-relief-travel-archive/
+├── michengai-photo-enamel-travel-badge/
 ├── michengai-photo-travel-ticket-collage/
 ├── michengai-rubber-stamp-field-notes/
 ├── michengai-city-reflection-travel-print/

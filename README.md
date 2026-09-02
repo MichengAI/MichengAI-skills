@@ -2,7 +2,7 @@
 
 **中文** · [English](./README.en.md)
 
-迷城 AI 的风格化照片编辑与旅行视觉 Skills 集合，遵循可被兼容 Agent Skills 的工具发现和调用的目录结构。每个 Skill 都有独立、可辨识的视觉语言，并提供中文说明；部分 Skill 同时提供英文说明。
+迷城 AI 的风格化照片编辑与旅行视觉 Skills 集合，遵循可被兼容 Agent Skills 的工具发现和调用的目录结构。每个 Skill 都有独立、可辨识的视觉语言，并提供中英文说明。
 
 ## Skills
 
@@ -14,7 +14,7 @@
 | MichengAI Photo Impasto Diorama Poster | **厚涂微景观海报** | 将每张照片分别制作成“真实编辑摄影 + 明亮留白中的 3D 厚涂油画微景观”的 3:4 对半海报 | [中文](./michengai-photo-impasto-diorama-poster/README.md) · [English](./michengai-photo-impasto-diorama-poster/README.en.md) | `michengai-photo-impasto-diorama-poster` |
 | MichengAI Photo Isometric Impasto Atlas | **轴测厚涂场景图鉴** | 将每张照片制作成“可信现场摄影 + 同源轴测微缩场景 + 不规则颜料地形”的 3:4 等分图鉴海报 | [中文](./michengai-photo-isometric-impasto-atlas/README.md) · [English](./michengai-photo-isometric-impasto-atlas/README.en.md) | `michengai-photo-isometric-impasto-atlas` |
 | MichengAI Photo Felt Relief Travel Archive | **羊毛毡浅浮雕旅行档案** | 将每张照片制作成“完整原始摄影 + 同视角手工毛毡与针毡羊毛浅浮雕”的 3:4 旅行档案海报 | [中文](./michengai-photo-felt-relief-travel-archive/README.md) · [English](./michengai-photo-felt-relief-travel-archive/README.en.md) | `michengai-photo-felt-relief-travel-archive` |
-| MichengAI Photo Enamel Travel Badge | **珐琅旅行纪念徽章** | 从照片提炼最有识别度的主体，制作成“原照片 + 深色粗麻布上的实体珐琅徽章”的 3:4 上下对照画页 | [中文](./michengai-photo-enamel-travel-badge/README.md) | `michengai-photo-enamel-travel-badge` |
+| MichengAI Photo Enamel Travel Badge | **珐琅旅行纪念徽章** | 从照片提炼最有识别度的主体，制作成“原照片 + 深色粗麻布上的实体珐琅徽章”的 3:4 上下对照画页 | [中文](./michengai-photo-enamel-travel-badge/README.md) · [English](./michengai-photo-enamel-travel-badge/README.en.md) | `michengai-photo-enamel-travel-badge` |
 | MichengAI Photo Travel Ticket Collage | **照片旅行票根拼贴** | 将每张照片制作成“半幅真实原照 + 同源插画票卡 + 结构化票根与旅行邮戳”的 3:4 对照拼贴 | [中文](./michengai-photo-travel-ticket-collage/README.md) · [English](./michengai-photo-travel-ticket-collage/README.en.md) | `michengai-photo-travel-ticket-collage` |
 | MichengAI Photo Sticker Sheet | **照片贴纸收藏卡** | 将参考照片转化为“写实主图 + 同源手绘明信片 + 原图元素模切贴纸”的收藏级竖版贴纸板 | [中文](./michengai-photo-sticker-sheet/README.md) · [English](./michengai-photo-sticker-sheet/README.en.md) | `michengai-photo-sticker-sheet` |
 | MichengAI Photo Manga Sticker Fusion | **真人照片漫画贴纸融合** | 将一个人或多人群体转化为黑白手绘漫画贴纸，或在实景中自然加入漫画角色，同时严格保留摄影背景 | [中文](./michengai-photo-manga-sticker-fusion/README.md) · [English](./michengai-photo-manga-sticker-fusion/README.en.md) | `michengai-photo-manga-sticker-fusion` |

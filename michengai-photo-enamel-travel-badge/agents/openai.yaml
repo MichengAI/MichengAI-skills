@@ -1,0 +1,4 @@
+interface:
+  display_name: "MichengAI 珐琅旅行纪念徽章"
+  short_description: "从照片提炼主体，制作珐琅徽章与原照上下对照的旅行纪念画页"
+  default_prompt: "使用 $michengai-photo-enamel-travel-badge 将我上传的每张照片分别制作成 3:4 珐琅旅行纪念徽章画页。"
